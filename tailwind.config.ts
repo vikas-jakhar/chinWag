@@ -19,7 +19,10 @@ const config: Config = {
           'md': "768px",
           'lg': "1024px",
           'xl': "1180px",
-        }
+        },
+      },
+      lineHeight: {
+        'custom-xl': "60px",
       }
     },
   },
