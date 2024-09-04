@@ -6,7 +6,7 @@ import { ROADMAP_DATA } from '@/utils/Helper';
 const RoadMap = () => {
     return (
         <div className='sm:py-24 pt-16 pb-24 relative z-[1]'>
-            <div className="container sm:mt-9 lg:pb-10 sm:mb-5">
+            <div className="container sm:mt-9 lg:pb-16 sm:mb-5">
                 <p className='text-center mx-auto text-darkGreen font-normal text-xl'>The Best Business Partnerships</p>
                 <PrimaryHeading text='Start with a Chin-Wag' className='text-offGreen text-center mx-auto' />
                 <div className="lg:mt-40 mt-12 pt-3 gap-7 sm:gap-0 lg:max-h-[368px] flex lg:flex-row flex-col justify-between max-w-[1074px] w-full mx-auto pointer-events-none relative z-10">
