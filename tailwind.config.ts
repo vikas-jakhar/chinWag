@@ -9,7 +9,9 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-
+        'footer-layer': "url(/assets/images/webp/footer-layer.png)",
+        'section-layer': "url(/assets/images/webp/section-layer.png)",
+        'conversations-layer': "url(/assets/images/webp/conversations-bg.png)",
       },
       container: {
         center: true,
@@ -28,8 +30,11 @@ const config: Config = {
         'lightGreen': "#7A9E9F",
         'darkGreen': "#4F6367",
         'offGreen': "#2A3739",
+        'coolGreen': "#88ADAE",
         'mediumGreen': "#B8D8D8",
         'lightSky': "#BBFFFF4D",
+        'lightGray': "#00000033",
+        'offGray': "#738184",
       },
       dropShadow: {
         'gray-sm': "1px 1px 0px #5F5F5F",
@@ -38,7 +43,8 @@ const config: Config = {
         'border-md': "0px 0px 0px 1px white, 2px 2px 0px 1px #7A9E9F",
       },
       fontSize: {
-        'custom-xs': "8px"
+        'custom-xs': "8px",
+        'custom-sm': "10px",
       }
     },
   },

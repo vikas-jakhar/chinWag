@@ -8,7 +8,7 @@ const Header = () => {
         <div className='py-4'>
             <div className="container">
                 <nav className='flex items-center justify-between'>
-                    <Link href="/" className='flex w-full max-w-[32px] sm:max-w-[60px]'>
+                    <Link href="/" className='flex w-full max-w-[32px] sm:max-w-[63px]'>
                         <Image src="/assets/images/webp/logo.png" alt='logo' width={95} height={92} className='w-full' priority />
                     </Link>
                     <div className="flex items-center gap-5">
