@@ -6,4 +6,13 @@
 
 * {
   font-family: "Roboto Slab", serif;
-}  
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4F6367;
+  border-radius: 30px;
+}
