@@ -35,6 +35,8 @@ const config: Config = {
         'lightSky': "#BBFFFF4D",
         'lightGray': "#00000033",
         'offGray': "#738184",
+         'DarkGreen': "#4F6367",
+        'Green': "#2A3739"
       },
       dropShadow: {
         'gray-sm': "1px 1px 0px #5F5F5F",
