@@ -16,7 +16,7 @@ const Supercharge: React.FC = () => {
                     </div>
                     <div className='relative lg:hidden'>
                         <Image
-                            src="/assets/images/webp/supercharge-image.webp"
+                            src="/assets/images/webp/Supercharge-image.webp"
                             alt="Supercharge Image"
                             className="relative z-30 pointer-events-none"
                             width={606}
