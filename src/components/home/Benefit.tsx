@@ -50,7 +50,7 @@ Built for Startups, SMEs & Enterprise' className='text-center text-offGreen max-
                         <div className='flex flex-col'>
                             <div className='pt-2 max-sm:pt-5'>
                                 <Image
-                                    src="/assets/images/webp/service-teams.webp"
+                                    src="/assets/images/webp/service-teams.png"
                                     alt="On-Demand"
                                     className="w-full pointer-events-none"
                                     width={178}

@@ -32,7 +32,7 @@ const Hero = () => {
           <div className='flex flex-col max-xl:pt-16 max-sm:pt-[23px] max-xl:text-center max-xl:items-center'>
             <h1 className=' font-black max-sm:text-[30px] relative z-30 text-offGreen max-sm:leading-[40px] max-w-[419px] max-sm:max-w-[273px] text-[46px] leading-[61px]'>Introductions that save you money.</h1>
             <PrimaryParagraph data='Avoid inflated costs, keep your identity hidden while searching for Partners, and get rewarded for paying on-time.' className='max-w-[409px] pt-3 z-20' />
-            <button className='font-bold text-base max-sm:mt-[21px] leading-5 max-w-[237px] border-none text-nowrap text-white rounded-[65px] bg-darkGreen py-[16px] px-[20px] mt-[41px]'>Publish your Requirement</button>
+            <button className='font-bold border-[1px] border-transparent hover:border-offGreen duration-500 hover:bg-white hover:text-offGreen text-base max-sm:mt-[21px] leading-5 max-w-[237px] text-nowrap text-white rounded-[65px] bg-darkGreen py-[16px] px-[20px] mt-[41px]'>Publish your Requirement</button>
           </div>
         </div>
         <div className='max-2xl:hidden md:hidden'>

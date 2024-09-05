@@ -12,26 +12,24 @@ const Private = () => {
                         <PrimaryParagraph data='Chin-wag empowers you with the ability to request information from the resource marketplace without revealing your Identity. ' className='max-w-[428px] font-light pt-5 max-sm:pt-[15px]' />
                         <PrimaryParagraph data='Review applications and schedule introductions with total discretion.' className='max-w-[428px] pt-4 max-sm:pt-2 font-light' />
                     </div>
-                    <div>
                         <div className='max-lg:w-full relative z-30 max-lg:pt-[68px] flex max-lg:justify-center'>
                             <Image
-                                src="/assets/images/webp/stay-private.webp"
+                                src="/assets/images/webp/stay-private.png"
                                 alt="On-Demand"
-                                className=" z-30 relative pointer-events-none"
-                                width={545}
+                                className="z-30 max-w-[513px]  relative pointer-events-none"
+                                width={513}
                                 height={477}
                                 priority
                             />
                             <Image
-                                src="/assets/images/webp/stayprivate-ellipse-bg.webp"
+                                src="/assets/images/webp/commitment-ellips.webp"
                                 alt="On-Demand"
-                                className="absolute bottom-[23px] max-sm:bottom-[-40px] w-full lg:right-[-40px] md:left-0 z-0"
+                                className="absolute bottom-[23px] max-w-[545px] max-sm:bottom-[-40px] w-full lg:right-[-40px] md:left-0 z-0"
                                 width={545}
                                 height={429}
                                 priority
                             />
                         </div>
-                    </div>
                 </div>
             </div>
             <Image

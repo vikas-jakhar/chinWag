@@ -34,7 +34,7 @@ const ScrollToTop: React.FC = () => {
             window.removeEventListener('scroll', toggleVisible);
             window.removeEventListener('resize', checkScreenWidth);
         };
-    }, []);
+    }, []);        
 
     return (
         <button

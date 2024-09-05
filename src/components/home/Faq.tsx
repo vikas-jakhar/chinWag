@@ -15,7 +15,7 @@ const Faq: React.FC = () => {
         }
         return '0px';
     };
-
+                            
     return (
         <div className='z-[1] relative py-16 sm:py-24'>
             <div className="container mt-2.5 sm:mb-11 pb-0.5">
