@@ -23,7 +23,7 @@ const Private = () => {
                         priority
                     />
                     <Image
-                        src="/assets/images/webp/private-ellips.png"
+                        src="/assets/images/webp/stayprivate-ellipse-bg.webp"
                         alt="On-Demand"
                         className="absolute bottom-[23px] max-sm:bottom-[-40px] w-full lg:right-[-40px] md:left-0 z-0"
                         width={545}
@@ -45,7 +45,7 @@ const Private = () => {
               <Image
                 src="/assets/images/webp/superchange-ellips.png"
                 alt="On-Demand"
-                className="absolute top-[350px] max-sm:h-[28px] max-sm:w-[24px] sm:hidden right-[16px]"
+                className="absolute top-[350px] max-sm:h-[28px] max-sm:w-[24px] sm:hidden right-[10px]"
                 width={66}
                 height={78}
                 priority
