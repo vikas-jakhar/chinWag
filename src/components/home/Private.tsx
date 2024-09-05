@@ -17,12 +17,11 @@ const Private: React.FC = () => {
                         <Image
                             src="/assets/images/webp/stay-private.webp"
                             alt="Stay Private"
-                            className="relative max-w-[513px] pointer-events-none"
+                            className="relative w-full max-w-[513px] pointer-events-none"
                             width={513}
                             height={477}
                             priority
                         />
-
                     </div>
                 </div>
             </div>
