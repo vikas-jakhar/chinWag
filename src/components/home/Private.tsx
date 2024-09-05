@@ -12,11 +12,11 @@ const Private = () => {
                         <PrimaryParagraph data='Chin-wag empowers you with the ability to request information from the resource marketplace without revealing your Identity. ' className='max-w-[428px] font-light pt-5 max-sm:pt-[15px]' />
                         <PrimaryParagraph data='Review applications and schedule introductions with total discretion.' className='max-w-[428px] pt-4 max-sm:pt-2 font-light' />
                     </div>
-                        <div className='max-lg:w-full relative z-30 max-lg:pt-[68px] flex max-lg:justify-center'>
+                        <div className='max-lg:w-full relative max-lg:pt-[68px] flex max-lg:justify-center'>
                             <Image
                                 src="/assets/images/webp/stay-private.png"
                                 alt="On-Demand"
-                                className="z-30 max-w-[513px]  relative pointer-events-none"
+                                className="max-w-[513px] relative z-30 pointer-events-none"
                                 width={513}
                                 height={477}
                                 priority
