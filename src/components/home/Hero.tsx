@@ -63,7 +63,7 @@ const Hero = () => {
         </div>
         <Image
           src="/assets/images/webp/scroll-down.webp"
-          alt="On-Demand"
+          alt="sroll-down"
           className="absolute max-sm:hidden right-[23px] bottom-0"
           width={111}
           height={112}
