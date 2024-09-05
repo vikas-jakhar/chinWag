@@ -6,7 +6,7 @@ import Image from 'next/image'
 const Commitment = () => {
     return (
        <div className=' relative'>
-          <div className='container pt-[216px] pb-[143px] max-sm:pt-[131px] max-md:pt-[160px] max-md:pb-[110px] max-lg:pt-[170px] max-lg:pb-[120px] max-sm:pb-[94px]'>
+          <div className='container pt-[145px] pb-[143px] max-lg:pt-[135px] max-sm:pt-[131px] max-md:pb-[110px] max-lg:pb-[120px] max-sm:pb-[94px]'>
             <div className='flex justify-between max-lg:flex-wrap max-lg:justify-center items-center'>
                 <div className='relative max-lg:hidden'>
                     <Image
