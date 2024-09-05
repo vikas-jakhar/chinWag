@@ -15,7 +15,7 @@ const Private = () => {
                     <div>
                         <div className='max-lg:w-full relative z-30 max-lg:pt-[68px] flex max-lg:justify-center'>
                             <Image
-                                src="/assets/images/webp/stay-private.png"
+                                src="/assets/images/webp/stay-private.webp"
                                 alt="On-Demand"
                                 className=" z-30 relative"
                                 width={545}
@@ -35,7 +35,7 @@ const Private = () => {
                 </div>
             </div>
             <Image
-                src="/assets/images/webp/two-circle.png"
+                src="/assets/images/webp/two-circle.webp"
                 alt="On-Demand"
                 className="absolute top-[87px] max-sm:hidden left-[26px]"
                 width={66}
@@ -43,7 +43,7 @@ const Private = () => {
                 priority
             />
             <Image
-                src="/assets/images/webp/superchange-ellips.png"
+                src="/assets/images/webp/superchange-ellips.webp"
                 alt="On-Demand"
                 className="absolute top-[350px] max-sm:h-[28px] max-sm:w-[24px] sm:hidden right-[16px]"
                 width={66}

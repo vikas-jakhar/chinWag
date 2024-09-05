@@ -60,7 +60,7 @@ Supercharge Your Growth' className='max-w-[568px] max-sm:max-w-[314px] text-whit
                 </div>
             </div>
             <Image
-                src="/assets/images/webp/superchange-ellips.png"
+                src="/assets/images/webp/superchange-ellips.webp"
                 alt="On-Demand"
                 className="absolute max-sm:hidden top-[51px] left-[30px]"
                 width={66}
@@ -68,7 +68,7 @@ Supercharge Your Growth' className='max-w-[568px] max-sm:max-w-[314px] text-whit
                 priority
             />
             <Image
-                src="/assets/images/webp/small-screenellips.png"
+                src="/assets/images/webp/small-screenellips.webp"
                 alt="On-Demand"
                 className="absolute sm:hidden max-sm:w-[36px] max-sm:h-[38px] top-[33px] left-[6px]"
                 width={66}

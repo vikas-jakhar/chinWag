@@ -22,7 +22,7 @@ Built for Startups, SMEs & Enterprise' className='text-center text-Green max-w-[
                                         className="w-full pointer-events-none"
                                         width={183}
                                         height={192}
-                                        priority 
+                                        priority
                                     />
                                 </div>
                                 <h3 className='-mt-[70px] max-sm:-mt-[50px] font-semibold group-hover:text-white text-black leading-[34px] max-sm:text-lg max-sm:leading-6 text-[25px]'>On-demand Talent </h3>
@@ -50,7 +50,7 @@ Built for Startups, SMEs & Enterprise' className='text-center text-Green max-w-[
                         <div className='flex flex-col'>
                             <div className='pt-2 max-sm:pt-5'>
                                 <Image
-                                    src="/assets/images/webp/service-teams.png"
+                                    src="/assets/images/webp/service-teams.webp"
                                     alt="On-Demand"
                                     className="w-full pointer-events-none"
                                     width={178}
@@ -65,15 +65,15 @@ Built for Startups, SMEs & Enterprise' className='text-center text-Green max-w-[
                 </div>
             </div>
             <Image
-                src="/assets/images/webp/plus-ellips.png"
+                src="/assets/images/webp/plus-ellips.webp"
                 alt="On-Demand"
                 className="absolute max-sm:left-[7px] max-sm:top-[157px] max-sm:w-[37px] max-sm:h-[42px] top-[178px] left-[60px] "
                 width={66}
                 height={78}
                 priority
             />
-             <Image
-                src="/assets/images/webp/two-circle.png"
+            <Image
+                src="/assets/images/webp/two-circle.webp"
                 alt="On-Demand"
                 className="absolute bottom-[4px] max-sm:w-[44px] max-sm:h-[41px] max-sm:right-[3px] max-sm:bottom-[-60px] right-[35px]"
                 width={66}

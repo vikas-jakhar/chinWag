@@ -5,7 +5,7 @@ export const metadata = {
   description: "chin-wag",
   metadataBase: new URL("https://herbert-1.vercel.app/"),
   openGraph: {
-    images: "/home-meta-img.png",
+    images: "/home-meta-img.webp",
   },
 };
 interface RootLayoutProps {
