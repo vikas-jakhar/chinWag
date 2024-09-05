@@ -24,7 +24,7 @@ const Private = () => {
                             <Image
                                 src="/assets/images/webp/commitment-ellips.webp"
                                 alt="On-Demand"
-                                className="absolute bottom-[23px] max-w-[545px] max-sm:bottom-[-40px] w-full lg:right-[-40px] md:left-0 z-0"
+                                className="absolute bottom-[23px] max-w-[545px] pointer-events-none max-sm:bottom-[-40px] w-full lg:right-[-40px] md:left-0 z-0"
                                 width={545}
                                 height={429}
                                 priority
