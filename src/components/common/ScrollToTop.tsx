@@ -19,7 +19,7 @@ const ScrollToTop: React.FC = () => {
         const totalHeight = document.documentElement.scrollHeight - window.innerHeight;
         const scrolledPercent = ((scrolled / totalHeight) * 100).toFixed(0);
 
-        if (scrolled > 400) {
+        if (scrolled > 400) {  
             setVisible(true);
         } else {
             setVisible(false);

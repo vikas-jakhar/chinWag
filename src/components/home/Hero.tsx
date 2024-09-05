@@ -12,7 +12,7 @@ const Hero = () => {
         <div className='flex justify-between max-lg:flex-wrap max-lg:justify-center max-lg:text-center pt-[213px] max-sm:pt-[119px] pb-[141px] max-md:pb-[50px] max-sm:pb-[71px] max-lg:pb-[60px] items-center'>
           <div className='relative z-30 transform translate-x-[-16%] translate_x'>
             <Image
-              src="/assets/images/webp/hero-gif.gif"
+              src="/assets/images/gif/hero-img.gif"
               alt="On-Demand"
               className="z-30 w-full relative rounded-lg shadow-gif-shadow max-w-[715px] max-sm:!h-[197px] !h-[456px]"
               width={715}
@@ -20,13 +20,15 @@ const Hero = () => {
               priority
             />
             <Image
-              src="/assets/images/webp/dots.webp"
+              src="/assets/images/webp/dot-img.webp"
               alt="On-Demand"
-              className="absolute  z-0  top-[-49px] right-[-20px] max-sm:top-[-20px] max-sm:right-[-14px] max-sm:max-w-[52px] max-sm:h-[39px]"
+              className="absolute z-0 top-[-49px] right-[-20px] max-sm:top-[-20px] max-sm:right-[-14px] max-sm:w-[52px] max-sm:h-auto"
               width={146}
               height={118}
+              sizes="(max-width: 640px) 52px, 146px" // Image size changes based on the screen width
               priority
             />
+
           </div>
           <div className='flex flex-col max-lg:pt-16 max-sm:pt-[23px] max-lg:text-center max-lg:items-center'>
             <h1 className=' font-black max-sm:text-[30px] relative z-30 max-sm:leading-[40px] max-w-[419px] text-offGreen max-sm:max-w-[273px] text-[46px] leading-[61px]'>Introductions that save you money.</h1>
