@@ -5,7 +5,9 @@ import { ACCORDION_DATA } from '@/utils/Helper';
 
 const Faq: React.FC = () => {
     const [openIndex, setOpenIndex] = useState<number | null>(null);
-    const contentRefs = useRef<(HTMLDivElement | null)[]>([]);
+
+    // Correctly type the ref to hold an array of HTMLDivElements or null
+    const contentRefs = useRef<Array<HTMLDivElement | null>>([]);
 
     const handleToggle = (index: number) => {
         setOpenIndex(openIndex === index ? null : index);
@@ -42,7 +44,9 @@ const Faq: React.FC = () => {
                                         </div>
                                     </div>
                                     <div
-                                        ref={(el) => (contentRefs.current[index] = el)}
+                                        ref={(el: HTMLDivElement | null) => {
+                                            contentRefs.current[index] = el;
+                                        }}
                                         className={`accordion-content max-h-0 overflow-hidden duration-300 ease-linear ${openIndex === index ? 'max-h-96' : 'max-h-0'}`}
                                         style={{
                                             maxHeight: openIndex === index ? getHeight(index) : '0px',
