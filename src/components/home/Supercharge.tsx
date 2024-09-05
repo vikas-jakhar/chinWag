@@ -2,6 +2,7 @@ import React from 'react';
 import PrimaryHeading from '../custom-ui/PrimaryHeading';
 import PrimaryParagraph from '../custom-ui/PrimaryParagraph';
 import Image from 'next/image';
+import PrimaryButton from '../custom-ui/PrimaryButton';
 
 const Supercharge: React.FC = () => {
     return (
@@ -11,9 +12,7 @@ const Supercharge: React.FC = () => {
                     <div className='flex flex-col max-lg:text-center max-lg:items-center'>
                         <PrimaryHeading text='Save on Cost. Supercharge Your Growth' className='max-w-[568px] max-sm:max-w-[314px] text-white' />
                         <PrimaryParagraph data='Secure the best rates and get rewarded for on-time payments with a 5% discount on your next invoice. Equivalent to 1 free day of work for 20 days paid.' className='max-w-[566px] text-white max-sm:pt-[10px] pt-[14px]' />
-                        <button className='font-bold border-[1px] border-transparent hover:border-offGreen duration-500 hover:bg-white hover:text-offGreen max-sm:mt-8 max-w-[155px] text-base leading-5 text-nowrap text-white rounded-[65px] bg-darkGreen py-[15px] px-[27px] mt-[41px]'>
-                            Book a Demo
-                        </button>
+                        <PrimaryButton hoverClass='bg-lightGreen' className='font-bold border-[1px] border-transparent hover:border-lightGreen max-sm:mt-8 max-w-[155px] text-base leading-5 text-nowrap text-white rounded-[65px] bg-darkGreen py-[15px] px-[27px] mt-[41px]' text='Book a Demo' />
                     </div>
                     <div className='relative lg:hidden'>
                         <Image

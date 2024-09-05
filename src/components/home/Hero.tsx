@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Icon from '../common/Icons';
 import Header from '../common/Header';
 import Link from 'next/link';
+import PrimaryButton from '../custom-ui/PrimaryButton';
 
 const Hero: React.FC = () => {
   return (
@@ -15,7 +16,7 @@ const Hero: React.FC = () => {
             <Image
               src="/assets/images/gif/hero-img.gif"
               alt="Hero Image"
-              className="z-30 w-full rounded-lg shadow-gif-shadow max-w-[715px] max-sm:!h-[197px] !h-[456px]"
+              className="z-30 relative w-full rounded-lg shadow-gif-shadow max-w-[715px] max-sm:!h-[197px] !h-[456px]"
               width={715}
               height={456}
               priority
@@ -35,9 +36,7 @@ const Hero: React.FC = () => {
               Introductions that save you money.
             </h1>
             <PrimaryParagraph data='Avoid inflated costs, keep your identity hidden while searching for partners, and get rewarded for paying on time.' className='max-w-[409px] pt-3 z-20' />
-            <button className='font-bold border-[1px] border-transparent hover:border-offGreen duration-500 hover:bg-white hover:text-offGreen text-base max-sm:mt-[21px] leading-5 max-w-[237px] text-nowrap text-white rounded-[65px] bg-darkGreen py-[16px] px-[20px] mt-[41px]'>
-              Publish your Requirement
-            </button>
+            <PrimaryButton hoverClass='bg-lightGreen' text='Publish your Requirement' className='font-bold border-[1px] border-transparent hover:border-lightGreen  max-sm:mt-[21px] leading-5 max-w-[237px] text-nowrap text-white rounded-[65px] bg-darkGreen py-[16px] px-[20px] mt-[41px]' />
           </div>
         </div>
         <div className='absolute hidden max-2xl:block md:hidden'>
