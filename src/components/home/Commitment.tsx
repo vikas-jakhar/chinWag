@@ -5,7 +5,8 @@ import Image from 'next/image'
 
 const Commitment = () => {
     return (
-        <div className='container pt-[216px] pb-[143px] max-sm:pt-[131px] max-md:pt-[160px] max-md:pb-[110px] max-lg:pt-[170px] max-lg:pb-[120px] max-sm:pb-[94px]'>
+       <div className=' relative'>
+          <div className='container pt-[216px] pb-[143px] max-sm:pt-[131px] max-md:pt-[160px] max-md:pb-[110px] max-lg:pt-[170px] max-lg:pb-[120px] max-sm:pb-[94px]'>
             <div className='flex justify-between max-lg:flex-wrap max-lg:justify-center items-center'>
                 <div className='relative max-lg:hidden'>
                     <Image
@@ -51,6 +52,23 @@ const Commitment = () => {
                 </div>
             </div>
         </div>
+         <Image
+         src="/assets/images/webp/plus-ellips.png"
+         alt="On-Demand"
+         className="absolute max-sm:hidden top-[380px] right-[30px]"
+         width={66}
+         height={78}
+         priority
+     />
+      <Image
+                src="/assets/images/webp/two-circle.png"
+                alt="On-Demand"
+                className="absolute top-[131px] left-[10px] max-sm:w-[26px] max-sm:h-[26px]"
+                width={66}
+                height={78}
+                priority
+            />
+       </div>
     )
 }
 
