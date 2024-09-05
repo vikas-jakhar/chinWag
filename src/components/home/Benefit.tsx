@@ -64,7 +64,7 @@ Built for Startups, SMEs & Enterprise' className='text-center text-Green max-w-[
                     </div>
                 </div>
             </div>
-            <Image 
+            <Image
                 src="/assets/images/webp/plus-ellips.png"
                 alt="On-Demand"
                 className=" absolute top-[178px] left-[-60px] max-xl:left-3"
