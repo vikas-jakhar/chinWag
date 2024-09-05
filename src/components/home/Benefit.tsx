@@ -22,7 +22,7 @@ Built for Startups, SMEs & Enterprise' className='text-center text-Green max-w-[
                                         className="w-full pointer-events-none"
                                         width={183}
                                         height={192}
-                                        priority
+                                        priority 
                                     />
                                 </div>
                                 <h3 className='-mt-[70px] max-sm:-mt-[50px] font-semibold group-hover:text-white text-black leading-[34px] max-sm:text-lg max-sm:leading-6 text-[25px]'>On-demand Talent </h3>

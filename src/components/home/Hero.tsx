@@ -25,10 +25,9 @@ const Hero = () => {
               className="absolute z-0 top-[-49px] right-[-20px] max-sm:top-[-20px] max-sm:right-[-14px] max-sm:w-[52px] max-sm:h-auto"
               width={146}
               height={118}
-              sizes="(max-width: 640px) 52px, 146px" // Image size changes based on the screen width
+              sizes="(max-width: 640px) 52px, 146px" 
               priority
             />
-
           </div>
           <div className='flex flex-col max-lg:pt-16 max-sm:pt-[23px] max-lg:text-center max-lg:items-center'>
             <h1 className=' font-black max-sm:text-[30px] relative z-30 max-sm:leading-[40px] max-w-[419px] text-offGreen max-sm:max-w-[273px] text-[46px] leading-[61px]'>Introductions that save you money.</h1>
