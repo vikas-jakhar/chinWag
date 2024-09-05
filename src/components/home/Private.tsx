@@ -17,7 +17,7 @@ const Private = () => {
                             <Image
                                 src="/assets/images/webp/stay-private.png"
                                 alt="On-Demand"
-                                className=" z-30 relative"
+                                className=" z-30 relative pointer-events-none"
                                 width={545}
                                 height={477}
                                 priority
@@ -37,7 +37,7 @@ const Private = () => {
             <Image
                 src="/assets/images/webp/two-circle.png"
                 alt="On-Demand"
-                className="absolute top-[87px] max-sm:hidden left-[26px]"
+                className="absolute top-[87px] pointer-events-none max-sm:hidden left-[26px]"
                 width={66}
                 height={78}
                 priority
@@ -45,7 +45,7 @@ const Private = () => {
             <Image
                 src="/assets/images/webp/superchange-ellips.png"
                 alt="On-Demand"
-                className="absolute top-[350px] max-sm:h-[28px] max-sm:w-[24px] sm:hidden right-[16px]"
+                className="absolute pointer-events-none top-[350px] max-sm:h-[28px] max-sm:w-[24px] sm:hidden right-[16px]"
                 width={66}
                 height={78}
                 priority

@@ -2,17 +2,16 @@ import React from 'react'
 import PrimaryHeading from '../custom-ui/PrimaryHeading'
 import PrimaryParagraph from '../custom-ui/PrimaryParagraph'
 import Image from 'next/image'
-
 const Commitment = () => {
     return (
-       <div className=' relative'>
-          <div className='container pt-[145px] pb-[143px] max-lg:pt-[135px] max-sm:pt-[131px] max-md:pb-[110px] max-lg:pb-[120px] max-sm:pb-[94px]'>
+       <div className='relative'>
+          <div className='container pt-[145px] max-lg:pt-[137px] pb-[143px] max-sm:pt-[131px] max-md:pb-[110px] max-lg:pb-[120px] max-sm:pb-[94px]'>
             <div className='flex justify-between max-lg:flex-wrap max-lg:justify-center items-center'>
                 <div className='relative max-lg:hidden'>
                     <Image
                         src="/assets/images/webp/commitment-image.webp"
                         alt="On-Demand"
-                        className="z-30 relative"
+                        className="z-30 relative pointer-events-none"
                         width={489}
                         height={527}
                         priority
@@ -20,7 +19,7 @@ const Commitment = () => {
                     <Image
                         src="/assets/images/webp/commitment-ellips.webp"
                         alt="On-Demand"
-                        className="absolute top-[-40px] z-0 left-0 pointer-events-none"
+                        className="absolute top-[-40px] left-0 z-0 pointer-events-none"
                         width={489}
                         height={527}
                         priority
@@ -60,10 +59,9 @@ const Commitment = () => {
          height={78}
          priority
      />
-      <Image
-                src="/assets/images/webp/two-circle.png"
+      <Image  src="/assets/images/webp/two-circle.png"
                 alt="On-Demand"
-                className="absolute top-[131px] left-[10px] max-sm:w-[26px] max-sm:h-[26px]"
+                className="absolute top-[131px] pointer-events-none left-[10px] max-sm:w-[26px] max-sm:h-[26px]"
                 width={66}
                 height={78}
                 priority
