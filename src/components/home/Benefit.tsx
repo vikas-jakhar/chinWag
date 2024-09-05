@@ -5,7 +5,7 @@ import PrimaryParagraph from '../custom-ui/PrimaryParagraph'
 
 const Benefit = () => {
     return (
-        <div className=' relative'>
+        <div className='relative'>
             <div className='container'>
                 <div className='flex justify-center pt-[160px] max-lg:pt-[120px] max-md:pt-[80px] max-sm:pt-[71px]'>
                     <PrimaryHeading text='Benefit from the Power of Choice.
@@ -67,7 +67,15 @@ Built for Startups, SMEs & Enterprise' className='text-center text-Green max-w-[
             <Image
                 src="/assets/images/webp/plus-ellips.png"
                 alt="On-Demand"
-                className=" absolute top-[178px] left-[-60px] max-xl:left-3"
+                className="absolute max-sm:left-[7px] max-sm:top-[157px] max-sm:w-[37px] max-sm:h-[42px] top-[178px] left-[60px] "
+                width={66}
+                height={78}
+                priority
+            />
+             <Image
+                src="/assets/images/webp/two-circle.png"
+                alt="On-Demand"
+                className="absolute bottom-[4px] max-sm:w-[44px] max-sm:h-[41px] max-sm:right-[3px] max-sm:bottom-[-60px] right-[35px]"
                 width={66}
                 height={78}
                 priority

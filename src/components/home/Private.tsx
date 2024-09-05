@@ -4,7 +4,7 @@ import PrimaryParagraph from '../custom-ui/PrimaryParagraph'
 import Image from 'next/image'
 const Private = () => {
     return (
-        <div className=''>
+        <div className='relative'>
             <div className='container pt-[179px] max-sm:pt-[145px] max-md:pt-[150px] max-lg:pt-[160px]'>
                 <div className='flex justify-between max-lg:flex-wrap w-full max-lg:justify-center lg:items-center'>
                 <div className='flex flex-col max-lg:text-center'>
@@ -34,7 +34,22 @@ const Private = () => {
                 </div>
                 </div>
             </div>
-
+            <Image
+                src="/assets/images/webp/two-circle.png"
+                alt="On-Demand"
+                className="absolute top-[87px] max-sm:hidden left-[26px]"
+                width={66}
+                height={78}
+                priority
+            />
+              <Image
+                src="/assets/images/webp/superchange-ellips.png"
+                alt="On-Demand"
+                className="absolute top-[350px] max-sm:h-[28px] max-sm:w-[24px] sm:hidden right-[16px]"
+                width={66}
+                height={78}
+                priority
+            />
         </div>
     )
 }
