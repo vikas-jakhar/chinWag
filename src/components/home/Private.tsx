@@ -13,11 +13,11 @@ const Private: React.FC = () => {
                         <PrimaryParagraph data='Chin-wag empowers you with the ability to request information from the resource marketplace without revealing your identity.' className='max-w-[428px] font-light pt-5 max-sm:pt-[15px]' />
                         <PrimaryParagraph data='Review applications and schedule introductions with total discretion.' className='max-w-[428px] pt-4 max-sm:pt-2 font-light' />
                     </div>
-                    <div className='relative z-30 max-lg:w-full max-lg:pt-[68px] flex justify-center'>
+                    <div className='relative w-full max-w-[513px] z-30 max-lg:pt-[68px] flex'>
                         <Image
                             src="/assets/images/webp/stay-private.webp"
                             alt="Stay Private"
-                            className="relative w-full max-w-[513px] pointer-events-none"
+                            className="relative w-full pointer-events-none"
                             width={513}
                             height={477}
                             priority

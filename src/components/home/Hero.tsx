@@ -39,23 +39,6 @@ const Hero: React.FC = () => {
             <PrimaryButton hoverClass='bg-lightGreen' text='Publish your Requirement' className='font-bold border-[1px] border-transparent hover:border-lightGreen  max-sm:mt-[21px] leading-5 max-w-[237px] text-nowrap text-white rounded-[65px] bg-darkGreen py-[16px] px-[20px] mt-[41px]' />
           </div>
         </div>
-        <div className='absolute hidden max-2xl:block md:hidden'>
-          <div className='flex flex-col gap-[17px] max-sm:!gap-[4px] absolute right-[-112px] top-[107px]'>
-            <Icon IconName='triangleIcon' />
-            <Icon IconName='triangleIcon' />
-            <Icon IconName='triangleIcon' />
-            <Icon IconName='triangleIcon' />
-            <Icon IconName='triangleIcon' />
-          </div>
-          <Image
-            src="/assets/images/webp/scroll-down.webp"
-            alt="Scroll Down"
-            className="absolute right-[-103px] bottom-0"
-            width={111}
-            height={112}
-            priority
-          />
-        </div>
       </div>
       <div className='absolute top-0 z-0 w-full max-sm:h-[207px] max-lg:h-[407px] 2xl:w-[50%] xl:w-[683px] bg-darkGreen h-[400px] xl:h-[810px] xl:rounded-[0px_16px_16px_0px]'></div>
       <div className='flex'>
@@ -66,7 +49,7 @@ const Hero: React.FC = () => {
           <Icon IconName='triangleIcon' className='max-sm:w-[4px] max-sm:h-[6px]' />
           <Icon IconName='triangleIcon' className='max-sm:w-[4px] max-sm:h-[6px]' />
         </div>
-        <Link href="#benefit" className='w-fit absolute max-sm:hidden right-[23px] bottom-0'>
+        <Link href="#benefit" className='w-fit hidden lg:flex absolute max-sm:hidden right-[23px] bottom-0'>
           <Image
             src="/assets/images/webp/scroll-down.webp"
             alt="Scroll Down"

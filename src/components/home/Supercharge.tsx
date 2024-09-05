@@ -32,7 +32,7 @@ const Supercharge: React.FC = () => {
                             priority
                         />
                     </div>
-                    <div className='hidden xl:block xl:absolute xl:top-[-60px] xl:right-[-36px]'>
+                    <div className='hidden lg:block xl:absolute xl:top-[-60px] xl:right-[-36px]'>
                         <div className='relative'>
                             <Image
                                 src="/assets/images/webp/supercharge-image.webp"
