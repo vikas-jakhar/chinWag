@@ -29,9 +29,9 @@ export const ACCORDION_DATA = [
     },
 ];
 export const ROADMAP_DATA = [
-    { image: "/assets/images/webp/business-img.png", text: "Describe your Business" },
-    { image: "/assets/images/webp/publish-img.png", text: "Pseudonymously Publish your Requirement" },
-    { image: "/assets/images/webp/providers-img.png", text: "Schedule Introductions with Providers of Interest" },
-    { image: "/assets/images/webp/terms-img.png", text: "Negotiate Engagement Terms Directly " },
-    { image: "/assets/images/webp/rewards-img.png", text: "Benefit from Pay-on-Time Rewards." },
+    { image: "/assets/images/webp/business-img.webp", text: "Describe your Business" },
+    { image: "/assets/images/webp/publish-img.webp", text: "Pseudonymously Publish your Requirement" },
+    { image: "/assets/images/webp/providers-img.webp", text: "Schedule Introductions with Providers of Interest" },
+    { image: "/assets/images/webp/terms-img.webp", text: "Negotiate Engagement Terms Directly " },
+    { image: "/assets/images/webp/rewards-img.webp", text: "Benefit from Pay-on-Time Rewards." },
 ]

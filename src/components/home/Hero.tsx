@@ -20,7 +20,7 @@ const Hero = () => {
               priority
             />
             <Image
-              src="/assets/images/webp/dots.png"
+              src="/assets/images/webp/dots.webp"
               alt="On-Demand"
               className="absolute  z-0  top-[-49px] right-[-20px] max-sm:top-[-20px] max-sm:right-[-14px] max-sm:max-w-[52px] max-sm:h-[39px]"
               width={146}
@@ -43,7 +43,7 @@ const Hero = () => {
             <Icon IconName='triangleIcon' />
           </div>
           <Image
-            src="/assets/images/webp/scroll-down.png"
+            src="/assets/images/webp/scroll-down.webp"
             alt="On-Demand"
             className="absolute right-[-103px] bottom-0"
             width={111}
@@ -62,7 +62,7 @@ const Hero = () => {
           <Icon IconName='triangleIcon' />
         </div>
         <Image
-          src="/assets/images/webp/scroll-down.png"
+          src="/assets/images/webp/scroll-down.webp"
           alt="On-Demand"
           className="absolute  max-sm:hidden right-[23px] bottom-0"
           width={111}

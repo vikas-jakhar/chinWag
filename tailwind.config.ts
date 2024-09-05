@@ -9,9 +9,9 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'footer-layer': "url(/assets/images/webp/footer-layer.png)",
-        'section-layer': "url(/assets/images/webp/section-layer.png)",
-        'conversations-layer': "url(/assets/images/webp/conversations-bg.png)",
+        'footer-layer': "url(/assets/images/webp/footer-layer.webp)",
+        'section-layer': "url(/assets/images/webp/section-layer.webp)",
+        'conversations-layer': "url(/assets/images/webp/conversations-bg.webp)",
       },
       container: {
         center: true,

@@ -9,7 +9,7 @@ const Commitment = () => {
             <div className='flex justify-between max-lg:flex-wrap max-lg:justify-center items-center'>
                 <div className='relative max-lg:hidden'>
                     <Image
-                        src="/assets/images/webp/commitment-image.png"
+                        src="/assets/images/webp/commitment-image.webp"
                         alt="On-Demand"
                         className="z-30 relative"
                         width={489}
@@ -17,7 +17,7 @@ const Commitment = () => {
                         priority
                     />
                     <Image
-                        src="/assets/images/webp/commitment-ellips.png"
+                        src="/assets/images/webp/commitment-ellips.webp"
                         alt="On-Demand"
                         className="absolute top-[-40px] z-0 left-0 pointer-events-none"
                         width={489}
@@ -33,7 +33,7 @@ const Commitment = () => {
                 </div>
                 <div className='relative lg:hidden pt-10'>
                     <Image
-                        src="/assets/images/webp/commitment-image.png"
+                        src="/assets/images/webp/commitment-image.webp"
                         alt="On-Demand"
                         className="z-30 relative"
                         width={489}
@@ -41,7 +41,7 @@ const Commitment = () => {
                         priority
                     />
                     <Image
-                        src="/assets/images/webp/commitment-ellips.png"
+                        src="/assets/images/webp/commitment-ellips.webp"
                         alt="On-Demand"
                         className="absolute top-[-40px] z-0 left-0 pointer-events-none"
                         width={489}

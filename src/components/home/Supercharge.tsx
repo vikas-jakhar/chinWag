@@ -18,7 +18,7 @@ Supercharge Your Growth' className='max-w-[568px] max-sm:max-w-[314px] text-whit
                         <div className='relative max-lg:pt-12'>
                             <div className=' w-full'>
                                 <Image
-                                    src="/assets/images/webp/supercharge-image.png"
+                                    src="/assets/images/webp/supercharge-image.webp"
                                     alt="On-Demand"
                                     className="z-30 relative"
                                     width={606}
@@ -27,7 +27,7 @@ Supercharge Your Growth' className='max-w-[568px] max-sm:max-w-[314px] text-whit
                                 />
                             </div>
                             <Image
-                                src="/assets/images/webp/commitment-ellips.png"
+                                src="/assets/images/webp/commitment-ellips.webp"
                                 alt="On-Demand"
                                 className="absolute top-0 left-0 z-0"
                                 width={421}
@@ -40,7 +40,7 @@ Supercharge Your Growth' className='max-w-[568px] max-sm:max-w-[314px] text-whit
                         <div className='relative max-lg:pt-12 max-lg:hidden'>
                             <div className=' w-full'>
                                 <Image
-                                    src="/assets/images/webp/supercharge-image.png"
+                                    src="/assets/images/webp/supercharge-image.webp"
                                     alt="On-Demand"
                                     className="z-30 relative"
                                     width={606}
@@ -49,7 +49,7 @@ Supercharge Your Growth' className='max-w-[568px] max-sm:max-w-[314px] text-whit
                                 />
                             </div>
                             <Image
-                                src="/assets/images/webp/commitment-ellips.png"
+                                src="/assets/images/webp/commitment-ellips.webp"
                                 alt="On-Demand"
                                 className="absolute top-0 left-0 z-0"
                                 width={421}
