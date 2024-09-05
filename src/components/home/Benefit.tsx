@@ -9,7 +9,7 @@ const Benefit = () => {
             <div className='container'>
                 <div className='flex justify-center pt-[160px] max-lg:pt-[100px] max-xl:pt-[80px] max-md:pt-[80px] max-sm:pt-[71px]'>
                     <PrimaryHeading text='Benefit from the Power of Choice.
-Built for Startups, SMEs & Enterprise' className='text-center text-Green max-w-[808px]' />
+Built for Startups, SMEs & Enterprise' className='text-center text-offGreen max-w-[808px]' />
                 </div>
                 <div className='flex gap-6 max-sm:gap-[27px] max-xl:flex-wrap justify-center max-sm:pt-[41px] pt-[60px]'>
                     <div className='flex gap-6 max-md:flex-wrap w-full justify-center'>
@@ -67,7 +67,7 @@ Built for Startups, SMEs & Enterprise' className='text-center text-Green max-w-[
             <Image
                 src="/assets/images/webp/plus-ellips.webp"
                 alt="On-Demand"
-                className="absolute max-sm:left-[7px] max-sm:top-[157px] max-sm:w-[37px] max-sm:h-[42px] top-[178px] left-[60px] "
+                className="absolute pointer-events-none max-sm:left-[7px] max-sm:top-[157px] max-sm:w-[37px] max-sm:h-[42px] top-[178px] left-[60px] "
                 width={66}
                 height={78}
                 priority
@@ -75,7 +75,7 @@ Built for Startups, SMEs & Enterprise' className='text-center text-Green max-w-[
             <Image
                 src="/assets/images/webp/two-circle.webp"
                 alt="On-Demand"
-                className="absolute bottom-[4px] max-sm:w-[44px] max-sm:h-[41px] max-sm:right-[3px] max-sm:bottom-[-60px] right-[35px]"
+                className="absolute pointer-events-none bottom-[4px] max-sm:w-[44px] max-sm:h-[41px] max-sm:right-[3px] max-sm:bottom-[-60px] right-[35px]"
                 width={66}
                 height={78}
                 priority

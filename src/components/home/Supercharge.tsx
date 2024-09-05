@@ -2,6 +2,7 @@ import React from 'react'
 import PrimaryHeading from '../custom-ui/PrimaryHeading'
 import PrimaryParagraph from '../custom-ui/PrimaryParagraph'
 import Image from 'next/image'
+
 const Supercharge = () => {
     return (
         <div className='bg-[#7A9E9FD4] relative'>
@@ -19,7 +20,7 @@ Supercharge Your Growth' className='max-w-[568px] max-sm:max-w-[314px] text-whit
                                 <Image
                                     src="/assets/images/webp/supercharge-image.webp"
                                     alt="On-Demand"
-                                    className="z-30 relative"
+                                    className="z-30 relative pointer-events-none"
                                     width={606}
                                     height={440}
                                     priority
@@ -28,7 +29,7 @@ Supercharge Your Growth' className='max-w-[568px] max-sm:max-w-[314px] text-whit
                             <Image
                                 src="/assets/images/webp/commitment-ellips.webp"
                                 alt="On-Demand"
-                                className="absolute top-0 left-0 z-0"
+                                className="absolute top-0 left-0 z-0 pointer-events-none"
                                 width={421}
                                 height={421}
                                 priority
@@ -41,7 +42,7 @@ Supercharge Your Growth' className='max-w-[568px] max-sm:max-w-[314px] text-whit
                                 <Image
                                     src="/assets/images/webp/supercharge-image.webp"
                                     alt="On-Demand"
-                                    className="z-30 relative"
+                                    className="z-30 relative pointer-events-none"
                                     width={606}
                                     height={440}
                                     priority
@@ -50,7 +51,7 @@ Supercharge Your Growth' className='max-w-[568px] max-sm:max-w-[314px] text-whit
                             <Image
                                 src="/assets/images/webp/commitment-ellips.webp"
                                 alt="On-Demand"
-                                className="absolute top-0 left-0 z-0"
+                                className="absolute top-0 left-0 z-0 pointer-events-none"
                                 width={421}
                                 height={421}
                                 priority
@@ -62,7 +63,7 @@ Supercharge Your Growth' className='max-w-[568px] max-sm:max-w-[314px] text-whit
             <Image
                 src="/assets/images/webp/superchange-ellips.webp"
                 alt="On-Demand"
-                className="absolute max-sm:hidden top-[51px] left-[30px]"
+                className="absolute max-sm:hidden pointer-events-none top-[51px] left-[30px]"
                 width={66}
                 height={78}
                 priority
