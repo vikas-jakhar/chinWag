@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "chin-wag",
   metadataBase: new URL("https://chinwag-eta.vercel.app/"),
   openGraph: {
-    images: ["/home-meta-img.webp"],
+    images: "/home-meta-img.webp",
   },
 };
 
