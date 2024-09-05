@@ -5,7 +5,7 @@ import PrimaryButton from '../custom-ui/PrimaryButton'
 
 const Header = () => {
     return (
-        <div className='py-4'>
+        <div className='py-4 absolute top-0 left-0 w-full z-50'>
             <div className="container">
                 <nav className='flex items-center justify-between'>
                     <Link href="/" className='flex w-full max-w-[32px] sm:max-w-[63px]'>
@@ -21,4 +21,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default Header;

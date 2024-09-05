@@ -14,12 +14,11 @@ import Supercharge from "@/components/home/Supercharge";
 export default function Home() {
   return (
     <>
-     <Hero />
-      <Benefit/>
-      <Private/>
-      <Commitment/>
-      <Supercharge/>
-      
+      <Hero />
+      <Benefit />
+      <Private />
+      <Commitment />
+      <Supercharge />
       <div className="bg-section-layer bg-cover bg-no-repeat">
         <RoadMap />
         <Conversations />

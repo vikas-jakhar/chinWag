@@ -12,7 +12,7 @@ const Supercharge = () => {
                         <PrimaryHeading text='Save on Cost.
 Supercharge Your Growth' className='max-w-[568px] max-sm:max-w-[314px] text-white' />
                         <PrimaryParagraph data='Secure the best rates and get rewarded for on-time payments with 5% discount against your next invoice. The equivalent to 1 free days work, for 20 days paid.' className='max-w-[566px] text-white max-sm:pt-[10px] pt-[14px]' />
-                        <button className='font-bold max-sm:mt-8 max-w-[155px] text-base leading-5 text-white rounded-[65px] bg-DarkGreen py-[15px] px-[27px] mt-[41px]'>Book a Demo</button>
+                        <button className='font-bold max-sm:mt-8 max-w-[155px] text-base leading-5 text-white rounded-[65px] bg-darkGreen py-[15px] px-[27px] mt-[41px]'>Book a Demo</button>
                     </div>
                     <div className='lg:hidden'>
                         <div className='relative max-lg:pt-12'>
@@ -37,29 +37,29 @@ Supercharge Your Growth' className='max-w-[568px] max-sm:max-w-[314px] text-whit
                         </div>
                     </div>
                     <div className='xl:absolute xl:top-[-60px] xl:right-[-36px]'>
-                    <div className='relative max-lg:pt-12 max-lg:hidden'>
-                        <div className=' w-full'>
+                        <div className='relative max-lg:pt-12 max-lg:hidden'>
+                            <div className=' w-full'>
+                                <Image
+                                    src="/assets/images/webp/supercharge-image.png"
+                                    alt="On-Demand"
+                                    className="z-30 relative"
+                                    width={606}
+                                    height={440}
+                                    priority
+                                />
+                            </div>
                             <Image
-                                src="/assets/images/webp/supercharge-image.png"
+                                src="/assets/images/webp/commitment-ellips.png"
                                 alt="On-Demand"
-                                className="z-30 relative"
-                                width={606}
-                                height={440}
+                                className="absolute top-0 left-0 z-0"
+                                width={421}
+                                height={421}
                                 priority
                             />
                         </div>
-                        <Image
-                            src="/assets/images/webp/commitment-ellips.png"
-                            alt="On-Demand"
-                            className="absolute top-0 left-0 z-0"
-                            width={421}
-                            height={421}
-                            priority
-                        />
                     </div>
                 </div>
-                </div>
-               
+
             </div>
 
         </div>
