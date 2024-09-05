@@ -52,14 +52,14 @@ const Commitment = () => {
                 </div>
             </div>
             <Image
-                src="/assets/images/webp/plus-ellips.png"
+                src="/assets/images/webp/plus-ellips.webp"
                 alt="On-Demand"
                 className="absolute max-sm:hidden top-[380px] right-[30px]"
                 width={66}
                 height={78}
                 priority
             />
-            <Image src="/assets/images/webp/two-circle.png"
+            <Image src="/assets/images/webp/two-circle.webp"
                 alt="On-Demand"
                 className="absolute top-[131px] pointer-events-none left-[10px] max-sm:w-[26px] max-sm:h-[26px]"
                 width={66}
