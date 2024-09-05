@@ -12,9 +12,9 @@ interface BenefitItem {
 
 const Benefit: React.FC = () => {
     return (
-        <div className='relative' id='benefit'>
+        <div className='relative'>
             <div className='container'>
-                <div className='flex justify-center pt-[160px] max-lg:pt-[100px] max-xl:pt-[80px] max-md:pt-[80px] max-sm:pt-[71px]'>
+                <div id='benefit' className='flex justify-center pt-[160px] max-lg:pt-[100px] max-xl:pt-[80px] max-md:pt-[80px] max-sm:pt-[71px]'>
                     <PrimaryHeading text='Benefit from the Power of Choice. Built for Startups, SMEs & Enterprise' className='text-center text-offGreen max-w-[808px]' />
                 </div>
                 <div className='flex gap-6 max-sm:gap-[27px] max-xl:flex-wrap justify-center max-sm:pt-[41px] pt-[60px]'>

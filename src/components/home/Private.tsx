@@ -22,14 +22,7 @@ const Private: React.FC = () => {
                             height={477}
                             priority
                         />
-                        <Image
-                            src="/assets/images/webp/commitment-ellips.webp"
-                            alt="Decorative Ellipse"
-                            className="absolute bottom-[23px] max-w-[545px] max-sm:bottom-[-40px] w-full lg:right-[-40px] md:left-0 z-0"
-                            width={545}
-                            height={429}
-                            priority
-                        />
+
                     </div>
                 </div>
             </div>
@@ -47,6 +40,13 @@ const Private: React.FC = () => {
                 className="absolute pointer-events-none top-[350px] max-sm:h-[28px] max-sm:w-[24px] sm:hidden right-[16px]"
                 width={66}
                 height={78}
+                priority
+            /> <Image
+                src="/assets/images/webp/commitment-ellips.webp"
+                alt="Decorative Ellipse"
+                className="absolute bottom-[23px] max-w-[545px] max-sm:bottom-[-40px] w-full lg:right-[0px] lg:left-auto md:left-0 z-0"
+                width={545}
+                height={429}
                 priority
             />
         </div>
