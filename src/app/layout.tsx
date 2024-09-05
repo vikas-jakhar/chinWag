@@ -1,20 +1,17 @@
-import type { Metadata } from "next";
 import "./globals.css";
-
-export const metadata: Metadata = {
-  title: "Chin Wag",
+import { ReactNode } from "react";
+export const metadata = {
+  title: "chin Wag",
   description: "chin-wag",
-  metadataBase: new URL("https://chinwag-eta.vercel.app/"),
+  metadataBase: new URL("https://herbert-1.vercel.app/"),
   openGraph: {
-    images: "/home-meta-img.webp",
+    images: "/home-meta-img.png",
   },
 };
-
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+interface RootLayoutProps {
+  children: ReactNode;
+}
+export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
       <body>{children}</body>
