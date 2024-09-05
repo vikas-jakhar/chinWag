@@ -3,7 +3,6 @@ import PrimaryParagraph from '../custom-ui/PrimaryParagraph'
 import Image from 'next/image'
 import Icon from '../common/Icons';
 import Header from '../common/Header';
-
 const Hero = () => {
   return (
     <div className='relative'>
@@ -25,7 +24,7 @@ const Hero = () => {
               className="absolute z-0 top-[-49px] right-[-20px] max-sm:top-[-20px] max-sm:right-[-14px] max-sm:w-[52px] max-sm:h-auto"
               width={146}
               height={118}
-              sizes="(max-width: 640px) 52px, 146px" 
+              sizes="(max-width: 640px) 52px, 146px"
               priority
             />
           </div>
@@ -53,19 +52,19 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className='absolute  top-0 z-0 width-small w-full max-sm:h-[207px] max-lg:h-[407px] 2xl:w-[50%] xl:w-[683px] bg-darkGreen h-[400px] xl:h-[810px] xl:rounded-[0px_16px_16px_0px]'></div>
+      <div className='absolute top-0 z-0 width-small w-full max-sm:h-[207px] max-lg:h-[407px] 2xl:w-[50%] xl:w-[683px] bg-darkGreen h-[400px] xl:h-[810px] xl:rounded-[0px_16px_16px_0px]'></div>
       <div className='2xl:hidden'>
         <div className='flex flex-col gap-[17px] max-sm:gap-[5px] max-md:left-[10px] max-md:top-[225px] absolute right-[15px] top-[107px]'>
           <Icon IconName='triangleIcon' className='max-sm:w-[4px] max-sm:h-[6px]' />
-          <Icon IconName='triangleIcon' className='max-sm:w-[4px] max-sm:h-[6px]'/>
-          <Icon IconName='triangleIcon' className='max-sm:w-[4px] max-sm:h-[6px]'/>
-          <Icon IconName='triangleIcon' className='max-sm:w-[4px] max-sm:h-[6px]'/>
-          <Icon IconName='triangleIcon' className='max-sm:w-[4px] max-sm:h-[6px]'/>
+          <Icon IconName='triangleIcon' className='max-sm:w-[4px] max-sm:h-[6px]' />
+          <Icon IconName='triangleIcon' className='max-sm:w-[4px] max-sm:h-[6px]' />
+          <Icon IconName='triangleIcon' className='max-sm:w-[4px] max-sm:h-[6px]' />
+          <Icon IconName='triangleIcon' className='max-sm:w-[4px] max-sm:h-[6px]' />
         </div>
         <Image
           src="/assets/images/webp/scroll-down.webp"
           alt="On-Demand"
-          className="absolute  max-sm:hidden right-[23px] bottom-0"
+          className="absolute max-sm:hidden right-[23px] bottom-0"
           width={111}
           height={112}
           priority
@@ -74,4 +73,5 @@ const Hero = () => {
     </div>
   )
 }
+
 export default Hero
