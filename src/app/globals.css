@@ -6,6 +6,7 @@
 
 * {
   font-family: "Roboto Slab", serif;
+  scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
@@ -16,8 +17,9 @@
   background-color: #4F6367;
   border-radius: 30px;
 }
+
 @media (max-width: 1400px) {
-  .translate_x{
+  .translate_x {
     transform: translateX(-20px);
   }
 }
