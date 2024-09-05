@@ -6,37 +6,30 @@ const ScrollToTop: React.FC = () => {
     const [visible, setVisible] = useState<boolean>(false);
     const [scrollPercent, setScrollPercent] = useState<string>('0');
     const [isLargeScreen, setIsLargeScreen] = useState<boolean>(false);
-
     const Scroll = () => {
         window.scrollTo({
             top: 0,
             behavior: "smooth",
         });
     };
-
     const toggleVisible = () => {
         const scrolled = window.scrollY;
         const totalHeight = document.documentElement.scrollHeight - window.innerHeight;
         const scrolledPercent = ((scrolled / totalHeight) * 100).toFixed(0);
-
         if (scrolled > 400) {  
             setVisible(true);
         } else {
             setVisible(false);
         }
-
         setScrollPercent(scrolledPercent);
     };
-
     const checkScreenWidth = () => {
         setIsLargeScreen(window.innerWidth >= 1920);
     };
-
     useEffect(() => {
         window.addEventListener('scroll', toggleVisible);
         window.addEventListener('resize', checkScreenWidth);
         checkScreenWidth();
-
         return () => {
             window.removeEventListener('scroll', toggleVisible);
             window.removeEventListener('resize', checkScreenWidth);

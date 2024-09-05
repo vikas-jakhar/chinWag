@@ -5,14 +5,10 @@ import { ACCORDION_DATA } from '@/utils/Helper';
 
 const Faq: React.FC = () => {
     const [openIndex, setOpenIndex] = useState<number | null>(null);
-
-    // Correctly type the ref to hold an array of HTMLDivElements or null
     const contentRefs = useRef<Array<HTMLDivElement | null>>([]);
-
     const handleToggle = (index: number) => {
         setOpenIndex(openIndex === index ? null : index);
     };
-
     const getHeight = (index: number) => {
         if (contentRefs.current[index]) {
             return contentRefs.current[index]?.scrollHeight + 'px';
