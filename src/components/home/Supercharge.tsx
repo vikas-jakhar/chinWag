@@ -35,7 +35,7 @@ const Supercharge: React.FC = () => {
                     <div className='hidden lg:block xl:absolute xl:top-[-60px] xl:right-[-36px]'>
                         <div className='relative'>
                             <Image
-                                src="/assets/images/webp/supercharge-image.webp"
+                                src="/assets/images/webp/Supercharge-image.webp"
                                 alt="Supercharge Image"
                                 className="relative z-30 pointer-events-none"
                                 width={606}
