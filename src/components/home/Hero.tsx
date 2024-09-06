@@ -44,7 +44,7 @@ const Hero: React.FC = () => {
       </div>
       <div className='absolute top-0 z-0 w-full max-sm:h-[207px] max-lg:h-[407px] 2xl:w-[50%] xl:w-[683px] bg-darkGreen h-[400px] xl:h-[810px] xl:rounded-[0px_16px_16px_0px]'></div>
       <div className='flex'>
-        <div className='flex flex-col gap-[17px] max-sm:gap-[5px] absolute sm:right-[15px] left-4 top-[40%] sm:top-[107px]'>
+        <div className='flex flex-col gap-[17px] max-sm:gap-[5px] absolute sm:right-[15px] sm:left-auto left-4 top-[40%] sm:top-[107px]'>
           {triangles.map((_, index) => (
             <Icon key={index} IconName='triangleIcon' className='max-sm:w-[4px] max-sm:h-[6px]' />
           ))}
