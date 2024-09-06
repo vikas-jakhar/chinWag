@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
                         alt='logo'
                         width={2006}
                         height={200}
-                        className='w-full'
+                        className='w-full pointer-events-none'
                         priority
                     />
                 </Link>
