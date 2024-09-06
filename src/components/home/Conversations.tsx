@@ -13,7 +13,7 @@ const Conversations: React.FC = () => {
         <div className='sm:py-24 pt-9 pb-11 relative z-[1] bg-lightSky'>
             <div className="container sm:my-10 relative z-[2]">
                 <PrimaryHeading className='mx-auto text-center' text='Share or Connect.' />
-                <PrimaryHeading className='mx-auto text-center -mt-1.5' text='Create Conversations that Count' />
+                <PrimaryHeading className='mx-auto text-center -mt-1.5 px-10 sm:px-0' text='Create Conversations that Count' />
                 <div className="mt-[38px] flex md:flex-row flex-col items-center gap-6 sm:gap-10 justify-center">
                     {CARD_DATA.map((item: CardDataItem, index: number) => (
                         <div
