@@ -11,7 +11,6 @@ const config: Config = {
       backgroundImage: {
         'footer-layer': "url(/assets/images/webp/footer-layer.webp)",
         'section-layer': "url(/assets/images/webp/section-layer.webp)",
-        'conversations-layer': "url(/assets/images/webp/conversations-bg.webp)",
       },
       container: {
         center: true,
