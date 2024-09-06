@@ -22,7 +22,7 @@ const Benefit: React.FC = () => {
                         {BENEFIT_ITEMS.map((item: BenefitItem, idx) => (
                             <div key={idx} className='min-h-[429px] max-sm:min-h-[379px] max-sm:max-w-[286px] px-5 hover:bg-[#7A9E9F] hover:border-[#7A9E9F] duration-500 group w-full sm:w-[48%] sm:px-3 lg:max-w-[364px] border-[1px] border-[#D3D6D6] rounded-lg text-center flex justify-center'>
                                 <div className='flex flex-col items-center'>
-                                    <div className={`pt-2 w-full max-sm:pt-5 ${idx === 2 ? "sm:max-w-[200px] max-w-[170px] pt-8 mb-20" : "max-w-[310px]"}`}>
+                                    <div className="pt-2 w-full max-sm:pt-5 max-w-[310px]">
                                         <Image
                                             src={item.imageSrc}
                                             alt={item.imageAlt}
