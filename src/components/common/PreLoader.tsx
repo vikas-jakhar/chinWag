@@ -36,10 +36,6 @@ const PreLoader: React.FC = () => {
                     style={{ width: 'auto', height: 'auto' }}
                     className="sm:max-w-[180px] max-w-[117px] w-full"
                 />
-                <div className="sm:w-20 w-10 h-10 sm:h-20 border-4 border-transparent text-blue-400 text-4xl animate-spin flex items-center justify-center border-t-blue-400 rounded-full">
-                    <div className="sm:w-16 w-10 h-10 sm:h-16 border-4 border-transparent text-red-400 text-2xl animate-spin flex items-center justify-center border-t-red-400 rounded-full">
-                    </div>
-                </div>
             </div>
             <div className={`min-h-screen w-1/2 bg-offGray z-[100] fixed top-0 right-0 transition-transform duration-500 ${hide ? 'translate-x-full' : 'translate-x-0'}`}>
             </div>
