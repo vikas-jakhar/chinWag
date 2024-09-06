@@ -18,7 +18,7 @@ const Conversations: React.FC = () => {
                     {CARD_DATA.map((item: CardDataItem, index: number) => (
                         <div
                             key={index}
-                            className={`${index === 0 ? "bg-darkGreen" : "bg-lightGreen"} max-w-[427px] w-full px-[30px] flex flex-col items-center pb-10 sm:pb-[30px] pt-[30px] sm:pt-10 rounded`}
+                            className={`${index === 0 ? "bg-darkGreen" : "bg-lightGreen"} max-w-[330px] sm:max-w-[427px] w-full px-[30px] flex flex-col items-center pb-10 sm:pb-[30px] pt-[30px] sm:pt-10 rounded`}
                         >
                             <p className='font-light text-base sm:text-lg text-white mt-0.5 text-center'>{item.text}</p>
                             <PrimaryButton
