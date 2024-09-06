@@ -14,7 +14,7 @@ const Header: React.FC = () => {
                             alt='logo'
                             width={95}
                             height={92}
-                            className='w-full'
+                            className='w-full pointer-events-none'
                             priority
                         />
                     </Link>
