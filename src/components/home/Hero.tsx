@@ -7,16 +7,18 @@ import Link from 'next/link';
 import PrimaryButton from '../custom-ui/PrimaryButton';
 
 const Hero: React.FC = () => {
+  const triangles = Array(5).fill(null);
+
   return (
     <div className='relative'>
       <Header />
       <div className='container relative'>
-        <div className='flex justify-between flex-wrap max-xl:justify-center max-sm:items-center max-xl:text-center pt-[213px] max-sm:pt-[119px] pb-[141px] max-md:pb-[50px] max-sm:pb-[71px] max-xl:pb-[60px]'>
+        <div className='flex justify-between flex-wrap max-xl:justify-center max-sm:items-center max-xl:text-center pt-[213px] max-sm:pt-[119px] pb-[141px] max-md:pb-[50px] max-sm:pb-[0px] max-xl:pb-[60px]'>
           <div className='relative z-30 transform -translate-x-[16%] max-xl:translate-x-0'>
             <Image
               src="/assets/images/gif/hero-img.gif"
               alt="Hero Image"
-              className="z-30 relative w-full rounded-lg shadow-gif-shadow max-w-[715px] max-sm:!h-[197px] !h-[456px]"
+              className="z-30 relative w-full rounded-lg shadow-gif-shadow max-w-[330px] sm:max-w-[715px] max-sm:!h-[197px] !h-[456px]"
               width={715}
               height={456}
               priority
@@ -42,12 +44,10 @@ const Hero: React.FC = () => {
       </div>
       <div className='absolute top-0 z-0 w-full max-sm:h-[207px] max-lg:h-[407px] 2xl:w-[50%] xl:w-[683px] bg-darkGreen h-[400px] xl:h-[810px] xl:rounded-[0px_16px_16px_0px]'></div>
       <div className='flex'>
-        <div className='flex flex-col gap-[17px] max-sm:gap-[5px] absolute right-[15px] top-[107px]'>
-          <Icon IconName='triangleIcon' className='max-sm:w-[4px] max-sm:h-[6px]' />
-          <Icon IconName='triangleIcon' className='max-sm:w-[4px] max-sm:h-[6px]' />
-          <Icon IconName='triangleIcon' className='max-sm:w-[4px] max-sm:h-[6px]' />
-          <Icon IconName='triangleIcon' className='max-sm:w-[4px] max-sm:h-[6px]' />
-          <Icon IconName='triangleIcon' className='max-sm:w-[4px] max-sm:h-[6px]' />
+        <div className='flex flex-col gap-[17px] max-sm:gap-[5px] absolute sm:right-[15px] left-4 top-[40%] sm:top-[107px]'>
+          {triangles.map((_, index) => (
+            <Icon key={index} IconName='triangleIcon' className='max-sm:w-[4px] max-sm:h-[6px]' />
+          ))}
         </div>
         <Link href="#benefit" className='w-fit hidden lg:flex absolute max-sm:hidden right-[23px] bottom-0'>
           <Image
