@@ -3,7 +3,6 @@ import PrimaryParagraph from '../custom-ui/PrimaryParagraph'
 import Image from 'next/image'
 import Icon from '../common/Icons';
 import Header from '../common/Header';
-
 const Hero = () => {
   return (
     <div className='relative'>
@@ -25,7 +24,7 @@ const Hero = () => {
               className="absolute z-0 top-[-49px] right-[-20px] max-sm:top-[-20px] max-sm:right-[-14px] max-sm:w-[52px] max-sm:h-auto"
               width={146}
               height={118}
-              sizes="(max-width: 640px) 52px, 146px" 
+              sizes="(max-width: 640px) 52px, 146px"
               priority
             />
           </div>
@@ -74,5 +73,4 @@ const Hero = () => {
     </div>
   )
 }
-
 export default Hero;
