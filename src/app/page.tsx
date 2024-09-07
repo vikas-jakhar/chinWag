@@ -13,7 +13,7 @@ import Supercharge from "@/components/home/Supercharge";
 
 export default function Home() {
   return (
-    <>
+    <div className="max-w-[1920px] mx-auto overflow-hidden relative">
       <Hero />
       <Benefit />
       <Private />
@@ -27,6 +27,6 @@ export default function Home() {
       <Footer />
       <PreLoader />
       <ScrollToTop />
-    </>
+    </div>
   );
 }

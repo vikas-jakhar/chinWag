@@ -45,7 +45,7 @@ const Benefit: React.FC = () => {
             <Image
                 src="/assets/images/webp/plus-ellips.webp"
                 alt="Plus Ellipse"
-                className="absolute poin ter-events-none max-sm:top-[157px]  top-[178px] left-[60px]"
+                className="absolute poin ter-events-none max-sm:top-[157px]  top-[178px] max-sm:left-[0px] max-sm:w-[37px] max-sm:h-[42px] max-sm: left-[60px]"
                 width={66}
                 height={78}
                 priority

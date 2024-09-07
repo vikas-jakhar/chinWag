@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
         <div className='flex justify-between items-center flex-wrap max-xl:justify-center max-sm:items-center max-xl:text-center pt-[213px] max-sm:pt-[119px] pb-[141px] max-md:pb-[50px] max-sm:pb-[0px] max-xl:pb-[60px]'>
           <div className='relative z-30 sm:mx-10 lg:mx-0 transform -translate-x-[16%] max-xl:translate-x-0'>
             <Image
-              src="/assets/images/gif/hero-img.gif"
+              src="/assets/images/webp/header-image.webp"
               alt="Hero Image"
               className="z-30 relative w-full rounded-lg shadow-gif-shadow max-w-[330px] sm:max-w-[715px] max-sm:!h-[197px] !h-[456px]"
               width={715}
