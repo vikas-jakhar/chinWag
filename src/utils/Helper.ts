@@ -34,4 +34,24 @@ export const ROADMAP_DATA = [
     { image: "/assets/images/webp/providers-img.webp", text: "Schedule Introductions with Providers of Interest" },
     { image: "/assets/images/webp/terms-img.webp", text: "Negotiate Engagement Terms Directly " },
     { image: "/assets/images/webp/rewards-img.webp", text: "Benefit from Pay-on-Time Rewards." },
-]
+];
+export const BENEFIT_ITEMS = [
+    {
+        title: 'On-demand Talent',
+        description: 'Review candidates and interview directly. Team extensions available from 1+ hires. Supercharge your growth with a flexible workforce',
+        imageSrc: '/assets/images/webp/on-demand.webp',
+        imageAlt: 'On-Demand',
+    },
+    {
+        title: 'Product Development',
+        description: 'Connect with the best available expertise for your current project. Save money and time with a partner who understands your product.',
+        imageSrc: '/assets/images/webp/product-development.webp',
+        imageAlt: 'Product Development',
+    },
+    {
+        title: 'Service Teams',
+        description: 'Benefit from expert team efficiency and keep your focus on task by outsourcing Lead Generation, Sales, HR, Marketing and more.',
+        imageSrc: '/assets/images/webp/service-teams.webp',
+        imageAlt: 'Service Teams',
+    },
+];

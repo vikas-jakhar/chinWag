@@ -1,9 +1,9 @@
 import "./globals.css";
 import { ReactNode } from "react";
 export const metadata = {
-  title: "chin Wag",
+  title: "Chin Wag",
   description: "chin-wag",
-  metadataBase: new URL("https://herbert-1.vercel.app/"),
+  metadataBase: new URL("https://chin-wag-eight.vercel.app/"),
   openGraph: {
     images: "/home-meta-img.webp",
   },

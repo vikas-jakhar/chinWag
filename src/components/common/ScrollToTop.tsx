@@ -16,7 +16,6 @@ const ScrollToTop: React.FC = () => {
         const scrolled = window.scrollY;
         const totalHeight = document.documentElement.scrollHeight - window.innerHeight;
         const scrolledPercent = ((scrolled / totalHeight) * 100).toFixed(0);
-
         if (scrolled > 400) {  
             setVisible(true);
         } else {
@@ -24,7 +23,6 @@ const ScrollToTop: React.FC = () => {
         }
         setScrollPercent(scrolledPercent);
     };
-
     const checkScreenWidth = () => {
         setIsLargeScreen(window.innerWidth >= 1920);
     };
@@ -41,10 +39,10 @@ const ScrollToTop: React.FC = () => {
     return (
         <button
             onClick={Scroll}
-            className="animate-bounce bg-white border border-darkGreen group place-items-center xl:w-16 xl:h-16 md:w-14 md:h-14 sm:w-12 sm:h-12 w-10 h-10 rounded-full fixed bottom-[1.5%] sm:bottom-[2%] md:bottom-[3%] cursor-pointer shadow-6xl duration-300 ease-linear z-30"
+            className="animate-bounce bg-white border border-darkGreen group place-items-center xl:w-16 xl:h-16 md:w-14 md:h-14 sm:w-12 sm:h-12 w-10 h-10 rounded-full fixed bottom-[1.5%] sm:bottom-[2%] md:bottom-[2%] cursor-pointer shadow-6xl duration-300 ease-linear z-30"
             style={{
                 display: visible ? 'grid' : 'none',
-                right: isLargeScreen ? 'calc((100vw - 1920px) / 2 + 30px)' : '3%',
+                right: isLargeScreen ? 'calc((100vw - 1920px) / 2 + 30px)' : '2%',
             }}
         >
             <span className="sm:text-sm text-xs md:text-base text-offBlack font-bold group-hover:opacity-0 duration-300 ease-linear font-rubik">
