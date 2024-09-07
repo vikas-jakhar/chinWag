@@ -25,7 +25,7 @@ const Conversations: React.FC = () => {
                                 gsapClass='w-full'
                                 hoverClass={`${index === 0 ? "bg-white" : "bg-lightGreen"}`}
                                 text={item.button}
-                                className={`${index === 0 ? "text-offGreen bg-mediumGreen" : "text-white bg-darkGreen"} sm:mt-[34px] mt-6 w-full py-2.5 sm:py-4 rounded-[138px] font-bold`}
+                                className={`${index === 0 ? "text-offGreen bg-mediumGreen" : "text-white bg-darkGreen"} sm:mt-[34px] mt-6 w-full text-xs py-3 sm:py-4 rounded-[138px] font-bold`}
                             />
                         </div>
                     ))}
