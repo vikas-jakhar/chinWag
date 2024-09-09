@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
             <Image
               src="/assets/images/webp/header-image.webp"
               alt="Hero Image"
-              className="z-30 relative w-full rounded-lg shadow-gif-shadow max-w-[330px] sm:max-w-[715px] max-sm:!h-[197px] !h-[456px]"
+              className="z-30 relative w-full mx-auto rounded-lg shadow-gif-shadow max-w-[330px] sm:max-w-[715px] max-sm:!h-[197px] !h-[456px]"
               width={715}
               height={456}
               priority

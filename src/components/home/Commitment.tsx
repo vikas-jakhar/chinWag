@@ -8,7 +8,6 @@ const Commitment: React.FC = () => {
         <div className='relative'>
             <div className='container pt-[145px] max-lg:pt-[100px] pb-[143px] max-sm:pt-[70px] max-md:pb-[110px] max-lg:pb-[120px] max-sm:pb-[94px]'>
                 <div className='flex max-lg:flex-col-reverse justify-between max-lg:flex-wrap max-lg:justify-center items-center'>
-                    <div className=' pt-[68px]'>
                         <Image
                             src="/assets/images/webp/commitment-image.webp"
                             alt="Commitment Image"
@@ -17,7 +16,6 @@ const Commitment: React.FC = () => {
                             height={527}
                             priority
                         />
-                    </div>
                     <div className='flex flex-col max-lg:text-center'>
                         <PrimaryHeading text='Commitment to Transparency' className='text-offGreen max-w-[448px]' />
                         <PrimaryParagraph data='Marketing platforms, and agencies, can inadvertently inflate your partnership costs by charging hidden fees.' className='max-w-[404px] font-light pt-5 max-sm:pt-2' />
