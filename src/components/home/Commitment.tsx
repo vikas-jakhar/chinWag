@@ -37,7 +37,7 @@ const Commitment: React.FC = () => {
             <Image
                 src="/assets/images/webp/two-circle.webp"
                 alt="Two Circle"
-                className="absolute top-[131px] pointer-events-none left-[10px] max-sm:w-[26px] max-sm:h-[26px]"
+                className="absolute top-[70px] sm:hidden pointer-events-none left-[10px] max-sm:w-[26px] max-sm:h-[26px]"
                 width={66}
                 height={78}
                 priority
