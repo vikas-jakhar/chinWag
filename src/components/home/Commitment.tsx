@@ -39,7 +39,7 @@ const Commitment: React.FC = () => {
             <Image
                 src="/assets/images/webp/plus-ellips.webp"
                 alt="Plus Ellipse"
-                className="absolute max-sm:hidden top-[380px] right-[30px]"
+                className="absolute max-sm:hidden top-[380px] right-[30px] max-w-[66px] max-h-[78px] h-full"
                 width={66}
                 height={78}
                 priority
@@ -47,7 +47,7 @@ const Commitment: React.FC = () => {
             <Image
                 src="/assets/images/webp/two-circle.webp"
                 alt="Two Circle"
-                className="absolute top-[131px] pointer-events-none left-[10px] max-sm:w-[26px] max-sm:h-[26px]"
+                className="absolute top-[131px] max-sm:top-[71px] pointer-events-none left-[10px] max-sm:w-[26px] max-sm:h-[26px]"
                 width={66}
                 height={78}
                 priority
@@ -55,7 +55,7 @@ const Commitment: React.FC = () => {
             <Image
                 src="/assets/images/webp/commitment-ellips.webp"
                 alt="Commitment Ellipse"
-                className="absolute top-[0px] left-[193px] max-lg:left-0 max-lg:top-[300px] z-0 pointer-events-none"
+                className="absolute top-[145px] left-[193px] max-lg:left-0 max-lg:top-[390px] z-0 pointer-events-none"
                 width={489}
                 height={527}
                 priority

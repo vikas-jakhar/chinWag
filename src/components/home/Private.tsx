@@ -40,10 +40,11 @@ const Private: React.FC = () => {
                 width={66}
                 height={78}
                 priority
-            /> <Image
-                src="/assets/images/webp/commitment-ellips.webp"
+            />
+             <Image
+                src="/assets/images/webp/private-ellips.png"
                 alt="Decorative Ellipse"
-                className="absolute bottom-[23px] max-w-[545px] max-sm:bottom-[-40px] w-full lg:right-[0px] lg:left-auto md:left-0 z-0"
+                className="absolute pointer-events-none max-lg:bottom-0 max-w-[545px] lg:top-[130px] max-sm:bottom-[-40px] w-full lg:right-0 lg:left-auto md:left-0 z-0"
                 width={545}
                 height={429}
                 priority
