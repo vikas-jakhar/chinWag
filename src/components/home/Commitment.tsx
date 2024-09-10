@@ -10,7 +10,7 @@ const Commitment: React.FC = () => {
                     <Image
                         src="/assets/images/webp/commitment-image.webp"
                         alt="Commitment Image"
-                        className="z-30 relative pt-10 pointer-events-none max-sm:max-w-[319px] max-md:max-w-[400px]"
+                        className="z-30 relative pt-9 pointer-events-none max-sm:max-w-[319px] max-md:max-w-[400px]"
                         width={489}
                         height={527}
                         priority
