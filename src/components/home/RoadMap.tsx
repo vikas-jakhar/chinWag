@@ -9,8 +9,8 @@ interface RoadmapItem {
 
 const RoadMap: React.FC = () => {
     return (
-        <div className='sm:py-24 pt-16 pb-24 relative z-[1]'>
-            <div className="container sm:mt-9 lg:pb-[85px] sm:mb-5">
+        <div className='lg:py-24 py-16 relative z-[1]'>
+            <div className="container md:mt-9 lg:pb-[75px] md:mb-5">
                 <p className='text-center mx-auto text-darkGreen font-normal text-sm sm:text-base md:text-xl'>
                     The Best Business Partnerships
                 </p>

@@ -5,7 +5,7 @@ import PrimaryButton from '../custom-ui/PrimaryButton';
 
 const Header: React.FC = () => {
     return (
-        <div className='pt-4 pb-4 max-md:pt-8 absolute top-0 left-0 w-full z-50'>
+        <div className='py-4 max-md:pt-8 absolute top-0 left-0 w-full z-50'>
             <div className="container">
                 <nav className='flex items-center justify-between'>
                     <Link href="/" className='flex w-full max-w-[32px] sm:max-w-[63px]'>

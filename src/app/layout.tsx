@@ -2,10 +2,10 @@ import "./globals.css";
 import { ReactNode } from "react";
 export const metadata = {
   title: "Chin Wag",
-  description: "chin-wag",
-  metadataBase: new URL("https://chin-wag-eight.vercel.app/"),
+  description: "Introductions that save you money.",
+  metadataBase: new URL("https://chin-wag-01.vercel.app/"),
   openGraph: {
-    images: "/home-meta-img.webp",
+    images: "/meta-img.webp",
   },
 };
 interface RootLayoutProps {

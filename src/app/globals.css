@@ -18,6 +18,10 @@
   border-radius: 30px;
 }
 
+.animate-spin{
+  animation-duration: 3s;
+}
+
 @media (max-width: 1400px) {
   .translate_x {
     transform: translateX(-20px);
