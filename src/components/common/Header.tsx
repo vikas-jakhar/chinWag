@@ -18,15 +18,15 @@ const Header: React.FC = () => {
                             priority
                         />
                     </Link>
-                    <div className="flex items-center gap-5">
+                    <div className="flex items-center gap-2 sm:gap-5">
                         <PrimaryButton
                             hoverClass='bg-dark-green'
-                            className='py-1.5 px-2.5 sm:px-6 sm:py-3 lg:py-[17px] md:px-[30px] bg-light-green rounded-[65px] text-white font-bold sm:font-normal text-custom-xs'
+                            className='py-1.5 px-2.5 sm:px-6 sm:py-3 lg:py-[17px] md:px-[30px] bg-light-green rounded-[65px] text-white font-bold sm:font-normal text-xs'
                             text='Require Resources?'
                         />
                         <PrimaryButton
                             hoverClass='bg-light-green'
-                            className='py-[4.5px] px-2.5 sm:px-6 sm:py-2.5 lg:py-[15.4px] md:px-[30px] border-light-green border-2 rounded-[65px] text-light-green font-bold sm:font-normal hover:border-white text-custom-xs hover:text-white'
+                            className='py-[4.5px] px-2.5 sm:px-6 sm:py-2.5 lg:py-[15.4px] md:px-[30px] border-light-green border-2 rounded-[65px] text-light-green font-bold sm:font-normal hover:border-white text-xs hover:text-white'
                             text='Provide Resources?'
                         />
                     </div>
