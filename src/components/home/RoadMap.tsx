@@ -11,10 +11,10 @@ const RoadMap: React.FC = () => {
     return (
         <div className='lg:py-24 py-16 relative z-[1]'>
             <div className="container md:mt-9 lg:pb-[75px] md:mb-5">
-                <p className='text-center mx-auto text-darkGreen font-normal text-sm sm:text-base md:text-xl'>
+                <p className='text-center mx-auto text-dark-green font-normal text-sm sm:text-base md:text-xl'>
                     The Best Business Partnerships
                 </p>
-                <PrimaryHeading text='Start with a Chin-Wag' className='text-offGreen text-center mx-auto' />
+                <PrimaryHeading text='Start with a Chin-Wag' className='text-off-green text-center mx-auto' />
                 <div className="lg:mt-40 mt-12 pt-3 gap-7 sm:gap-0 lg:max-h-[368px] flex lg:flex-row flex-col justify-between max-w-[1074px] w-full mx-auto pointer-events-none relative z-10">
                     <Image
                         src="/assets/images/webp/green-line.webp"
@@ -50,7 +50,7 @@ const RoadMap: React.FC = () => {
                                 alt='business'
                                 priority
                             />
-                            <p className={`text-offGreen font-normal relative z-[5] -mt-6 lg:-mt-12 lg:text-center text-lg md:text-base ${idx === 0 ? 'lg:max-w-[133px]' :
+                            <p className={`text-off-green font-normal relative z-[5] -mt-6 lg:-mt-12 lg:text-center text-lg md:text-base ${idx === 0 ? 'lg:max-w-[133px]' :
                                 idx === 1 ? 'lg:max-w-[204px]' :
                                     idx === 2 ? 'lg:max-w-[177px]' :
                                         idx === 3 ? 'lg:max-w-[161px]' :

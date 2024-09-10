@@ -18,15 +18,29 @@
   border-radius: 30px;
 }
 
-.animate-spin{
+.animate-spin {
   animation-duration: 3s;
+}
+
+.animate-move {
+  animation: iconMove 3s infinite alternate linear;
+}
+
+@keyframes iconMove {
+  to {
+    transform: translateY(15px);
+  }
+  from{
+    transform: translateY(-15px);
+  }
 }
 
 @media (max-width: 1400px) {
   .translate_x {
     transform: translateX(-20px);
   }
-  .gap_20{
+
+  .gap_20 {
     gap: 20px;
   }
 }

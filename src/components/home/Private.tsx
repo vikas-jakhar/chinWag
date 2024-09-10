@@ -9,7 +9,7 @@ const Private: React.FC = () => {
             <div className='container pt-[179px] max-sm:pt-[145px] max-md:pt-[100px] max-lg:pt-[160px]'>
                 <div className='flex justify-between flex-wrap w-full max-lg:justify-center lg:items-center'>
                     <div className='flex flex-col max-lg:text-center'>
-                        <PrimaryHeading text='Stay Private. Stay in Control.' className='max-w-[397px] max-sm:max-w-[330px] text-offGreen' />
+                        <PrimaryHeading text='Stay Private. Stay in Control.' className='max-w-[397px] max-sm:max-w-[330px] text-off-green' />
                         <PrimaryParagraph data='Chin-wag empowers you with the ability to request information from the resource marketplace without revealing your identity.' className='max-w-[428px] font-light pt-5 max-sm:pt-[15px]' />
                         <PrimaryParagraph data='Review applications and schedule introductions with total discretion.' className='max-w-[428px] pt-4 max-sm:pt-2 font-light' />
                     </div>
@@ -41,7 +41,7 @@ const Private: React.FC = () => {
                 height={78}
                 priority
             />
-             <Image
+            <Image
                 src="/assets/images/webp/private-ellips.png"
                 alt="Decorative Ellipse"
                 className="absolute pointer-events-none max-lg:bottom-0 max-w-[545px] lg:top-[130px] max-sm:bottom-[-40px] w-full lg:right-0 lg:left-auto md:left-0 z-0"

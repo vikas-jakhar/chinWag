@@ -8,7 +8,7 @@ const PrimaryButton: React.FC<PrimaryButtonProps> = ({ text, hoverClass, gsapCla
     return (
         <div className={`${gsapClass} flex`}>
             <button
-                className={`overflow-hidden hover:shadow-border-md group relative z-[1] duration-300 ease-linear sm:text-base ${className}`}
+                className={`overflow-hidden hover:shadow-3xl group relative z-[1] duration-300 ease-linear sm:text-base ${className}`}
                 {...props}
             >
                 <span className="group-hover:drop-shadow-gray-sm duration-300 ease-linear">{text}</span>
