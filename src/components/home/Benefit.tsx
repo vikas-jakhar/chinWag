@@ -18,7 +18,7 @@ const Benefit: React.FC = () => {
                     <PrimaryHeading text='Benefit from the Power of Choice. Built for Startups, SMEs & Enterprise' className='text-center text-offGreen max-w-[808px]' />
                 </div>
                 <div className='flex gap-6 max-sm:gap-[27px] max-xl:flex-wrap justify-center max-sm:pt-[41px] pt-[60px]'>
-                    <div className='flex gap-6 max-xl:gap-4 w-full flex-wrap flex-row lg:flex-nowrap justify-center'>
+                    <div className='flex gap-6 max-sm:gap-6 max-xl:gap-4 w-full flex-wrap flex-row lg:flex-nowrap justify-center'>
                         {BENEFIT_DATA.map((item: BenefitItem, idx) => (
                             <div key={idx} className='min-h-[429px] max-sm:min-h-[379px] max-sm:max-w-[286px] px-5 hover:bg-light-green hover:border-light-green duration-500 group w-full sm:w-[48%] sm:px-3 lg:max-w-[364px] border-[1px] border-medium-gray rounded-lg text-center flex justify-center'>
                                 <div className='flex flex-col items-center'>

@@ -5,6 +5,7 @@ import Icon from '../common/Icons';
 import Header from '../common/Header';
 import Link from 'next/link';
 import PrimaryButton from '../custom-ui/PrimaryButton';
+
 const Hero: React.FC = () => {
   const triangles = Array(5).fill(null);
   return (
