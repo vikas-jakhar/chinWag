@@ -20,7 +20,7 @@ const Benefit: React.FC = () => {
                 <div className='flex gap-6 max-sm:gap-[27px] max-xl:flex-wrap justify-center max-sm:pt-[41px] pt-[60px]'>
                     <div className='flex max-xl:gap-4 gap-6 w-full flex-wrap flex-row lg:flex-nowrap justify-center'>
                         {BENEFIT_DATA.map((item: BenefitItem, idx) => (
-                            <div key={idx} className='min-h-[429px] max-sm:min-h-[379px] max-sm:max-w-[286px] px-5 hover:bg-[#7A9E9F] hover:border-[#7A9E9F] duration-500 group w-full sm:w-[48%] sm:px-3 lg:max-w-[364px] border-[1px] border-[#D3D6D6] rounded-lg text-center flex justify-center'>
+                            <div key={idx} className='min-h-[429px] max-sm:min-h-[379px] max-sm:max-w-[286px] px-5 hover:bg-light-green hover:border-light-green duration-500 group w-full sm:w-[48%] sm:px-3 lg:max-w-[364px] border-[1px] border-medium-gray rounded-lg text-center flex justify-center'>
                                 <div className='flex flex-col items-center'>
                                     <div className="pt-2 w-full max-sm:pt-5 max-w-[310px]">
                                         <Image
