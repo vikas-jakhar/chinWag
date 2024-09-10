@@ -1,3 +1,4 @@
+import React from 'react';
 import PrimaryHeading from '../custom-ui/PrimaryHeading';
 import Image from 'next/image';
 import PrimaryParagraph from '../custom-ui/PrimaryParagraph';
@@ -13,11 +14,11 @@ const Benefit: React.FC = () => {
     return (
         <div className='relative'>
             <div className='container'>
-                <div id='benefit' className='flex justify-center pt-[160px] max-lg:pt-[100px] max-xl:pt-[80px] max-md:pt-20 max-sm:pt-[71px]'>
-                    <PrimaryHeading text='Benefit from the Power of Choice. Built for Startups, SMEs & Enterprise' className='text-center text-off-green max-w-[808px]' />
+                <div id='benefit' className='flex justify-center pt-[160px] max-lg:pt-[100px] max-xl:pt-[80px] max-md:pt-[80px] max-sm:pt-[71px]'>
+                    <PrimaryHeading text='Benefit from the Power of Choice. Built for Startups, SMEs & Enterprise' className='text-center text-offGreen max-w-[808px]' />
                 </div>
                 <div className='flex gap-6 max-sm:gap-[27px] max-xl:flex-wrap justify-center max-sm:pt-[41px] pt-[60px]'>
-                    <div className='flex max-xl:gap-4 gap-6 w-full flex-wrap flex-row lg:flex-nowrap justify-center'>
+                    <div className='flex gap-6 w-full flex-wrap flex-row lg:flex-nowrap justify-center'>
                         {BENEFIT_DATA.map((item: BenefitItem, idx) => (
                             <div key={idx} className='min-h-[429px] max-sm:min-h-[379px] max-sm:max-w-[286px] px-5 hover:bg-light-green hover:border-light-green duration-500 group w-full sm:w-[48%] sm:px-3 lg:max-w-[364px] border-[1px] border-medium-gray rounded-lg text-center flex justify-center'>
                                 <div className='flex flex-col items-center'>

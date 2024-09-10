@@ -1,3 +1,4 @@
+import React from 'react';
 import PrimaryHeading from '../custom-ui/PrimaryHeading';
 import PrimaryParagraph from '../custom-ui/PrimaryParagraph';
 import Image from 'next/image';
@@ -40,8 +41,8 @@ const Private: React.FC = () => {
                 height={78}
                 priority
             />
-             <Image
-                src="/assets/images/webp/private-ellips.webp"
+            <Image
+                src="/assets/images/webp/private-ellips.png"
                 alt="Decorative Ellipse"
                 className="absolute pointer-events-none max-lg:bottom-0 max-w-[545px] lg:top-[130px] max-sm:bottom-[-40px] w-full lg:right-0 lg:left-auto md:left-0 z-0"
                 width={545}
@@ -51,4 +52,5 @@ const Private: React.FC = () => {
         </div>
     );
 };
+
 export default Private;
