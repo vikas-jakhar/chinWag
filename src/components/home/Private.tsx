@@ -28,8 +28,8 @@ const Private: React.FC = () => {
                 src="/assets/images/webp/two-circle.webp"
                 alt="Decorative Circles"
                 className="absolute top-[87px] pointer-events-none max-sm:hidden left-[26px]"
-                width={66}
-                height={78}
+                width={74}
+                height={74}
                 priority
             />
             <Image
@@ -40,8 +40,8 @@ const Private: React.FC = () => {
                 height={78}
                 priority
             />
-            <Image
-                src="/assets/images/webp/private-ellips.png"
+             <Image
+                src="/assets/images/webp/private-ellips.webp"
                 alt="Decorative Ellipse"
                 className="absolute pointer-events-none max-lg:bottom-0 max-w-[545px] lg:top-[130px] max-sm:bottom-[-40px] w-full lg:right-0 lg:left-auto md:left-0 z-0"
                 width={545}
@@ -51,5 +51,4 @@ const Private: React.FC = () => {
         </div>
     );
 };
-
 export default Private;

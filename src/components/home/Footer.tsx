@@ -2,10 +2,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import PrimaryButton from '../custom-ui/PrimaryButton';
-
 const Footer: React.FC = () => {
     const currentYear: number = new Date().getFullYear();
-
     return (
         <div className='pb-0.5 pt-4 sm:py-5 bg-footer-layer bg-no-repeat bg-cover'>
             <div className="container mt-5 relative z-[1]">

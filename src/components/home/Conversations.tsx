@@ -7,7 +7,6 @@ interface CardDataItem {
     text: string;
     button: string;
 }
-
 const Conversations: React.FC = () => {
     return (
         <div className='lg:py-24 py-11 md:py-16 relative z-[1] bg-light-sky'>
