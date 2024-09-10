@@ -6,7 +6,7 @@ import Image from 'next/image';
 const Private: React.FC = () => {
     return (
         <div className='relative'>
-            <div className='container pt-[179px] max-sm:pt-[145px] max-md:pt-[100px] max-lg:pt-[160px]'>
+            <div className='container pt-[179px] max-sm:pt-[70px] max-md:pt-[100px] max-lg:pt-[160px]'>
                 <div className='flex justify-between flex-wrap w-full max-lg:justify-center max-lg:items-center'>
                     <div className='flex flex-col max-lg:text-center max-lg:items-center'>
                         <PrimaryHeading text='Stay Private. Stay in Control.' className='max-w-[397px] max-sm:max-w-[330px] text-off-green' />
