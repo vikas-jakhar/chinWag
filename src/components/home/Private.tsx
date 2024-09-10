@@ -6,18 +6,18 @@ import Image from 'next/image';
 const Private: React.FC = () => {
     return (
         <div className='relative'>
-            <div className='container pt-[179px] max-sm:pt-[70px] max-md:pt-[100px] max-lg:pt-[160px]'>
+            <div className='container pt-[179px] max-sm:pt-[145px] max-md:pt-[100px] max-lg:pt-[160px]'>
                 <div className='flex justify-between flex-wrap w-full max-lg:justify-center lg:items-center'>
-                    <div className='flex flex-col max-lg:text-center max-lg:items-center'>
+                    <div className='flex flex-col max-lg:text-center'>
                         <PrimaryHeading text='Stay Private. Stay in Control.' className='max-w-[397px] max-sm:max-w-[330px] text-offGreen' />
                         <PrimaryParagraph data='Chin-wag empowers you with the ability to request information from the resource marketplace without revealing your identity.' className='max-w-[428px] font-light pt-5 max-sm:pt-[15px]' />
                         <PrimaryParagraph data='Review applications and schedule introductions with total discretion.' className='max-w-[428px] pt-4 max-sm:pt-2 font-light' />
                     </div>
-                    <div className='relative w-full max-w-[513px] max-lg:justify-center z-30 max-lg:pt-[68px] flex'>
+                    <div className='relative w-full max-w-[513px] z-30 max-lg:pt-[68px] flex'>
                         <Image
                             src="/assets/images/webp/stay-private.webp"
                             alt="Stay Private"
-                            className="relative w-full max-sm:max-w-[326px] max-md:max-w-[400px] pointer-events-none"
+                            className="relative w-full pointer-events-none"
                             width={513}
                             height={477}
                             priority
@@ -40,10 +40,11 @@ const Private: React.FC = () => {
                 width={66}
                 height={78}
                 priority
-            /> <Image
-                src="/assets/images/webp/commitment-ellips.webp"
+            />
+             <Image
+                src="/assets/images/webp/private-ellips.png"
                 alt="Decorative Ellipse"
-                className="absolute bottom-[23px] max-w-[545px] max-sm:bottom-[-40px] w-full lg:right-[0px] lg:left-auto md:left-0 z-0"
+                className="absolute pointer-events-none max-lg:bottom-0 max-w-[545px] lg:top-[130px] max-sm:bottom-[-40px] w-full lg:right-0 lg:left-auto md:left-0 z-0"
                 width={545}
                 height={429}
                 priority

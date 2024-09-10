@@ -38,7 +38,7 @@ const Hero: React.FC = () => {
               Introductions that save you money.
             </h1>
             <PrimaryParagraph data='Avoid inflated costs, keep your identity hidden while searching for partners, and get rewarded for paying on time.' className='max-w-[409px] max-sm:max-w-[290px] pt-3 z-20' />
-            <PrimaryButton hoverClass='bg-lightGreen' text='Publish your Requirement' className='font-bold border-[1px] border-transparent hover:border-lightGreen max-sm:text-[12px] max-sm:py-[11px] max-sm:px-[15px] max-sm:mt-[21px] leading-5 max-w-[237px] text-nowrap text-white rounded-[65px] bg-darkGreen py-[16px] px-[20px] mt-[29px]' />
+            <PrimaryButton hoverClass='bg-lightGreen' text='Publish your Requirement' className='font-bold border-[1px] border-transparent hover:border-lightGreen max-sm:text-[12px] max-sm:py-[8px] max-sm:px-[15px] max-sm:mt-[21px] leading-5 max-w-[237px] text-nowrap text-white rounded-[65px] bg-darkGreen py-[16px] px-[20px] mt-[29px]' />
           </div>
         </div>
       </div>

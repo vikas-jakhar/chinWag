@@ -18,7 +18,7 @@ const Benefit: React.FC = () => {
                     <PrimaryHeading text='Benefit from the Power of Choice. Built for Startups, SMEs & Enterprise' className='text-center text-offGreen max-w-[808px]' />
                 </div>
                 <div className='flex gap-6 max-sm:gap-[27px] max-xl:flex-wrap justify-center max-sm:pt-[41px] pt-[60px]'>
-                    <div className='flex gap-6 w-full flex-wrap flex-row lg:flex-nowrap justify-center'>
+                    <div className='flex max-xl:gap-4 gap-6 w-full flex-wrap flex-row lg:flex-nowrap justify-center'>
                         {BENEFIT_ITEMS.map((item: BenefitItem, idx) => (
                             <div key={idx} className='min-h-[429px] max-sm:min-h-[379px] max-sm:max-w-[286px] px-5 hover:bg-[#7A9E9F] hover:border-[#7A9E9F] duration-500 group w-full sm:w-[48%] sm:px-3 lg:max-w-[364px] border-[1px] border-[#D3D6D6] rounded-lg text-center flex justify-center'>
                                 <div className='flex flex-col items-center'>
@@ -45,7 +45,7 @@ const Benefit: React.FC = () => {
             <Image
                 src="/assets/images/webp/plus-ellips.webp"
                 alt="Plus Ellipse"
-                className="absolute poin ter-events-none max-sm:top-[157px]  top-[178px] max-sm:left-[0px] max-sm:w-[37px] max-sm:h-[42px] max-sm: left-[60px]"
+                className="absolute max-sm:top-[157px] max-w-[66px] h-full max-h-[78px] top-[178px] max-sm:left-[0px] max-sm:w-[37px] max-sm:h-[42px] left-[60px]"
                 width={66}
                 height={78}
                 priority
@@ -54,8 +54,8 @@ const Benefit: React.FC = () => {
                 src="/assets/images/webp/two-circle.webp"
                 alt="Two Circle"
                 className="absolute pointer-events-none bottom-[4px] max-sm:w-[44px] max-sm:h-[41px] max-sm:right-[3px] max-sm:bottom-[-60px] right-[35px]"
-                width={66}
-                height={78}
+                width={74}
+                height={74}
                 priority
             />
         </div>

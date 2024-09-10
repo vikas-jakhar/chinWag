@@ -26,4 +26,7 @@
   .translate_x {
     transform: translateX(-20px);
   }
+  .gap_20{
+    gap: 20px;
+  }
 }
