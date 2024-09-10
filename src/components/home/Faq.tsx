@@ -18,7 +18,7 @@ const Faq: React.FC = () => {
 
     return (
         <div className='z-[1] relative py-16 lg:py-24'>
-            <div className="container mt-2.5 md:mb-2.5 lg:mb-11 pb-0.5">
+            <div className="container my-2.5 lg:mb-11 pb-0.5">
                 <PrimaryHeading text="FAQ’S" className="mx-auto text-center text-off-green" />
                 <div className="sm:mt-12 mt-7">
                     {ACCORDION_DATA.map((item, index) => (

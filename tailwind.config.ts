@@ -43,10 +43,6 @@ const config: Config = {
       boxShadow: {
         '3xl': "0px 0px 0px 1px white, 2px 2px 0px 1px #7A9E9F",
       },
-      fontSize: {
-        'custom-xs': "8px",
-        'custom-sm': "10px",
-      }
     },
   },
   plugins: [],

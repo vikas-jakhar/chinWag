@@ -22,13 +22,13 @@ const Footer: React.FC = () => {
                     gsapClass='mx-auto'
                     hoverClass='bg-white'
                     text='Book a Demo'
-                    className='sm:mt-[34px] mt-4 bg-cool-green mx-auto text-white text-custom-xs hover:text-cool-green px-5 sm:px-8 py-2 sm:py-[17px] rounded-[65px]'
+                    className='sm:mt-[34px] mt-4 bg-cool-green mx-auto text-white text-xs hover:text-cool-green px-5 sm:px-8 py-2 sm:py-[17px] rounded-[65px]'
                 />
             </div>
-            <p className='pt-5 w-full text-center text-white font-normal text-custom-sm sm:text-sm opacity-60 border-t mt-8 border-off-gray hidden sm:block'>
+            <p className='pt-5 w-full text-center text-white font-normal text-xs sm:text-sm opacity-60 border-t mt-8 border-off-gray hidden sm:block'>
                 © CHIN WAG INTERNATIONAL LIMITED t/a Chin-wag.com {currentYear}, All Rights Reserved.
             </p>
-            <p className='pb-2.5 pt-3 w-full text-center text-white font-normal text-custom-sm sm:text-sm opacity-60 border-t mt-8 border-off-gray sm:hidden'>
+            <p className='pb-2.5 pt-3 w-full text-center text-white font-normal text-xs sm:text-sm opacity-60 border-t mt-8 border-off-gray sm:hidden'>
                 ©chin-wag {currentYear}, All Rights Reserved
             </p>
         </div>
