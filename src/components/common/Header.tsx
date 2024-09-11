@@ -26,7 +26,7 @@ const Header: React.FC = () => {
                         />
                         <PrimaryButton
                             hoverClass='bg-light-green'
-                            className='py-[4.5px] px-2.5 sm:px-6 sm:py-2.5 lg:py-[15.4px] md:px-[30px] border-light-green border-2 rounded-[65px] text-white xl:text-light-green font-bold sm:font-normal hover:border-white text-xs hover:text-white'
+                            className='py-[4.5px] px-2.5 sm:px-6 sm:py-2.5 lg:py-[15.4px] md:px-[30px] border-light-green border-2 rounded-[65px] bg-white text-light-green font-bold sm:font-normal hover:border-white text-xs hover:text-white'
                             text='Provide Resources?'
                         />
                     </div>
