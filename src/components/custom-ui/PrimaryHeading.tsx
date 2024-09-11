@@ -20,7 +20,7 @@ const PrimaryHeading: React.FC<PrimaryHeadingProps> = ({
         <h2
             {...props}
             style={{ fontSize: `clamp(${minFontSize}px, ${sizeReducer}vw, ${maxFontSize}px)` }}
-            className={`${className} font-black leading-8 md:leading-10 lg:leading-custom-xl`}
+            className={`${className} font-black leading-9 md:leading-10 lg:leading-custom-xl`}
         >
             {text}
         </h2>

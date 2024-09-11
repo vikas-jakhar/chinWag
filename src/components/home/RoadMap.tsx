@@ -35,7 +35,7 @@ const RoadMap: React.FC = () => {
                     {ROADMAP_DATA.map((item: RoadmapItem, idx: number) => (
                         <div
                             key={idx}
-                            className={`z-[1] sm:w-full flex flex-row gap-7 -ml-5 sm:ml-0 lg:gap-0 lg:flex-col max-h-[85px] sm:max-h-[150px] relative items-center ${idx === 0 ? 'lg:-mt-24 left-0 lg:max-w-[200px]' :
+                            className={`z-[1] sm:w-full flex flex-row gap-4 -ml-5 sm:ml-0 lg:gap-0 lg:flex-col max-h-[85px] sm:max-h-[150px] relative items-center ${idx === 0 ? 'lg:-mt-24 left-0 lg:max-w-[200px]' :
                                 idx === 1 ? 'lg:mt-3 lg:max-w-[204px]' :
                                     idx === 2 ? 'lg:-mt-24 lg:max-w-[200px]' :
                                         idx === 3 ? 'lg:mt-3 lg:max-w-[200px]' :

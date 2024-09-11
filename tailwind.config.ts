@@ -36,6 +36,7 @@ const config: Config = {
         'off-gray': "#738184",
         'medium-gray': "#D3D6D6",
         'off-blue': "#7A9E9FD4",
+        'dark-gray': "#4C5F63",
       },
       dropShadow: {
         'gray-sm': "1px 1px 0px #5F5F5F",

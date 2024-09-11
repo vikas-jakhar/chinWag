@@ -35,8 +35,8 @@ const Faq: React.FC = () => {
                                             {item.title}
                                         </h3>
                                         <div className={`${openIndex === index ? 'w-1.5' : 'w-2.5'} h-2.5 relative overflow-hidden`}>
-                                            <span className='flex w-full h-[3px] bg-dark-green font-bold absolute left-0 top-1/2 -translate-y-1/2'></span>
-                                            <span className={`flex w-[3px] h-full bg-dark-green font-bold absolute left-1/2 top-0 -translate-x-1/2 duration-300 ease-linear ${openIndex === index ? 'rotate-90 opacity-0' : ''}`}></span>
+                                            <span className='flex w-full h-[2.4px] sm:h-[3px] bg-dark-gray font-bold absolute left-0 top-1/2 -translate-y-1/2'></span>
+                                            <span className={`flex w-[2.7px] sm:w-[3px] h-full bg-dark-gray font-bold absolute left-1/2 top-0 -translate-x-1/2 duration-300 ease-linear ${openIndex === index ? 'rotate-90 opacity-0' : ''}`}></span>
                                         </div>
                                     </div>
                                     <div
