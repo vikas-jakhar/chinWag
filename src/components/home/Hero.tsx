@@ -1,4 +1,3 @@
-import React from 'react';
 import PrimaryParagraph from '../custom-ui/PrimaryParagraph';
 import Image from 'next/image';
 import Icon from '../common/Icons';

@@ -1,4 +1,3 @@
-import React from 'react';
 import PrimaryHeading from '../custom-ui/PrimaryHeading';
 import Image from 'next/image';
 import { ROADMAP_DATA } from '@/utils/Helper';

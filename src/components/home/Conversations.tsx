@@ -1,4 +1,3 @@
-import React from 'react';
 import PrimaryHeading from '../custom-ui/PrimaryHeading';
 import PrimaryButton from '../custom-ui/PrimaryButton';
 import { CONVERSATIONS_DATA } from '@/utils/Helper';
