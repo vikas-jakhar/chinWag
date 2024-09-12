@@ -2,9 +2,10 @@ import PrimaryHeading from '../custom-ui/PrimaryHeading';
 import PrimaryParagraph from '../custom-ui/PrimaryParagraph';
 import Image from 'next/image';
 import PrimaryButton from '../custom-ui/PrimaryButton';
+
 const Supercharge: React.FC = () => {
     return (
-        <div className='bg-off-blue relative'>
+         <div className='bg-off-blue relative'>
             <div className='container py-[169px] max-md:py-[90px] max-lg:py-[102px] max-xl:py-[130px] max-sm:py-0 max-sm:pt-12 max-sm:pb-9'>
                 <div className='flex relative lg:justify-between max-lg:flex-wrap lg:items-center justify-center max-lg:w-full'>
                     <div className='flex flex-col max-lg:text-center max-lg:items-center'>
@@ -51,4 +52,5 @@ const Supercharge: React.FC = () => {
         </div>
     );
 };
+
 export default Supercharge;
