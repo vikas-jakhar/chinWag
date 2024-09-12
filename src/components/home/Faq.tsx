@@ -15,7 +15,6 @@ const Faq: React.FC = () => {
         }
         return '0px';        
     };     
-
     return (    
         <div className='z-[1] relative py-16 lg:py-24'>     
             <div className="container my-2.5 lg:mb-11 pb-0.5">
@@ -63,5 +62,4 @@ const Faq: React.FC = () => {
         </div>
     );
 };
-
 export default Faq;

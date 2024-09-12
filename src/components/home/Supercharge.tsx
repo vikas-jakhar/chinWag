@@ -2,7 +2,6 @@ import PrimaryHeading from '../custom-ui/PrimaryHeading';
 import PrimaryParagraph from '../custom-ui/PrimaryParagraph';
 import Image from 'next/image';
 import PrimaryButton from '../custom-ui/PrimaryButton';
-
 const Supercharge: React.FC = () => {
     return (
         <div className='bg-off-blue relative'>
@@ -52,5 +51,4 @@ const Supercharge: React.FC = () => {
         </div>
     );
 };
-
 export default Supercharge;

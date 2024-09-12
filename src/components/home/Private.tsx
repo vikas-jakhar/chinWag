@@ -1,7 +1,6 @@
 import PrimaryHeading from '../custom-ui/PrimaryHeading';
 import PrimaryParagraph from '../custom-ui/PrimaryParagraph';
 import Image from 'next/image';
-
 const Private: React.FC = () => {
     return (
         <div className='relative'>
@@ -51,5 +50,4 @@ const Private: React.FC = () => {
         </div>
     );
 };
-
 export default Private;
