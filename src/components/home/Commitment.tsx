@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Commitment: React.FC = () => {
     return (
         <div className='relative'>
-            <div className='container pt-[145px] max-lg:pt-[100px] pb-[143px] max-sm:pt-[70px] max-md:pb-[110px] max-lg:pb-[120px] max-sm:pb-[94px]'>
+            <div className='container pt-[145px] max-xl:pt-[100px] max-lg:pt-[90px] pb-[143px] max-sm:pt-[70px] max-md:pb-[110px] max-lg:pb-[120px] max-sm:pb-[94px]'>
                 <div className='flex max-lg:flex-col-reverse justify-between max-lg:flex-wrap max-lg:justify-center items-center'>
                     <Image
                         src="/assets/images/webp/commitment-image.webp"
@@ -15,7 +15,7 @@ const Commitment: React.FC = () => {
                         height={527}
                         priority
                     />
-                    <div className='flex flex-col max-lg:text-center'>
+                    <div className='flex flex-col max-lg:text-center max-lg:items-center'>
                         <PrimaryHeading text='Commitment to Transparency' className='text-off-green max-w-[448px]' />
                         <PrimaryParagraph data='Marketing platforms, and agencies, can inadvertently inflate your partnership costs by charging hidden fees.' className='max-w-[404px] font-light pt-5 max-sm:pt-2' />
                         <PrimaryParagraph data='We’ve put a stop to that problem.' className='pt-3 font-light' />
