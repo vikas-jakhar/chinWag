@@ -42,8 +42,8 @@ const Commitment: React.FC = () => {
             <Image
                 src="/assets/images/webp/commitment-ellips.webp"
                 alt="Commitment Ellipse"
-                className="absolute top-[145px] left-[193px] max-lg:left-0 max-lg:top-[390px] z-0 pointer-events-none"
-                width={489}
+                className="absolute top-[145px] left-0 max-lg:left-0 max-lg:top-[390px] z-0 pointer-events-none"
+                width={700}
                 height={527}
                 priority
             />
