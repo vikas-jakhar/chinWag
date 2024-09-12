@@ -52,7 +52,7 @@ const Benefit: React.FC = () => {
             <Image
                 src="/assets/images/webp/two-circle.webp"
                 alt="Two Circle"
-                className="absolute pointer-events-none bottom-[4px] max-sm:w-[44px] max-sm:h-[41px] max-sm:right-[3px] max-sm:bottom-[-60px] right-[35px]"
+                className="absolute pointer-events-none bottom-[4px] max-sm:w-[44px] max-sm:h-[41px] max-xl:bottom-[-90px] max-sm:right-[3px] max-sm:bottom-[-60px] right-[35px]"
                 width={74}
                 height={74}
                 priority

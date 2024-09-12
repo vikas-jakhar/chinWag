@@ -12,11 +12,11 @@ const Hero: React.FC = () => {
       <Header />
       <div className='container relative'>
         <div className='flex justify-between items-center flex-wrap max-xl:justify-center max-sm:items-center max-xl:text-center pt-[213px] max-sm:pt-[119px] pb-[141px] max-md:pb-[50px] max-sm:pb-[0px] max-xl:pb-[60px]'>
-          <div className='relative w-full sm:w-auto z-30 sm:mx-10 lg:mx-0 transform -translate-x-[16%] max-xl:translate-x-0'>
+          <div className='relative w-full sm:w-auto z-30 sm:mx-10 translate_x lg:mx-0 transform xl:-translate-x-[16%] translate-x-0'>
             <Image
               src="/assets/images/webp/header-image.webp"
               alt="Hero Image"
-              className="z-30 relative w-full mx-auto rounded-lg shadow-gif-shadow max-w-[330px] sm:max-w-[715px] max-sm:!h-[197px] !h-[456px]"
+              className="z-30 relative w-full mx-auto max-lg:h-[400px] max-md:h-[360px] rounded-lg shadow-gif-shadow max-w-[330px] sm:max-w-[715px] max-sm:h-[197px] h-[456px]"
               width={715}
               height={456}
               priority
@@ -42,9 +42,9 @@ const Hero: React.FC = () => {
       </div>
       <div className='absolute top-0 z-0 w-full max-sm:h-[207px] max-lg:h-[407px] 2xl:w-[50%] xl:w-[683px] bg-dark-green h-[400px] xl:h-[810px] xl:rounded-[0px_16px_16px_0px]'></div>
       <div className='flex'>
-        <div className='flex flex-col gap-[17px] max-sm:gap-[5px] absolute lg:right-[15px] lg:left-auto left-4 top-[40%] lg:top-[107px]'>
+        <div className='flex flex-col gap-[17px] max-sm:gap-[5px] absolute lg:right-[15px] left-4 top-[43%] max-sm:top-[40%] lg:top-[107px]'>
           {triangles.map((_, index) => (
-            <Icon key={index} IconName='triangleIcon' className='max-sm:w-[4px] max-sm:h-[6px]' />
+            <Icon key={index} IconName='triangleIcon' className='max-sm:w-[5px] max-sm:h-[6px]' />
           ))}
         </div>
         <Link href="#benefit" className='w-fit hidden lg:flex absolute max-sm:hidden right-[23px] bottom-0'>

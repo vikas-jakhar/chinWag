@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Private: React.FC = () => {
     return (
         <div className='relative'>
-            <div className='container pt-[179px] max-sm:pt-[90px] max-md:pt-[100px] max-lg:pt-[160px]'>
+            <div className='container pt-[179px] max-sm:pt-[70px] max-md:pt-[100px] max-lg:pt-[160px]'>
                 <div className='flex justify-between flex-wrap w-full max-lg:justify-center max-lg:items-center'>
                     <div className='flex flex-col max-lg:text-center max-lg:items-center'>
                         <PrimaryHeading text='Stay Private. Stay in Control.' className='max-w-[397px] max-sm:max-w-[330px] text-off-green' />
@@ -43,7 +43,7 @@ const Private: React.FC = () => {
             <Image
                 src="/assets/images/webp/private-ellips.webp"
                 alt="Decorative Ellipse"
-                className="absolute pointer-events-none max-lg:bottom-0 max-w-[545px] lg:top-[130px] max-sm:bottom-[-40px] w-full lg:right-0 lg:left-auto md:left-0 z-0"
+                className="absolute pointer-events-none max-lg:bottom-0 max-w-[800px] lg:top-0 max-sm:bottom-[-40px] w-full lg:right-0 lg:left-auto md:left-0 z-0"
                 width={545}
                 height={429}
                 priority
