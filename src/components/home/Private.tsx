@@ -48,6 +48,6 @@ const Private: React.FC = () => {
                 priority
             />
         </div>
-    );
+    ); 
 };
 export default Private;
