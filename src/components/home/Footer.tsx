@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import PrimaryButton from '../custom-ui/PrimaryButton';
+import Image from "next/image";
+import Link from "next/link";
+import PrimaryButton from "../custom-ui/PrimaryButton";
 
 const Footer: React.FC = () => {
     const currentYear: number = new Date().getFullYear();
