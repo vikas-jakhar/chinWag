@@ -72,5 +72,4 @@ const Benefit: React.FC = () => {
     </div>
   );
 };
-
 export default Benefit;
