@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
                         className='w-full pointer-events-none absolute top-0 max-w-[81px] sm:max-w-[155px] animate-spin'
                         priority
                     />
-                    <p className='text-xs md:text-xl font-medium tracking-widest relative text-medium-green'>CHIN-WAG <span className='absolute -top-0.5 -right-2.5 text-xs'>®</span></p>
+                    <p className='text-xs md:text-xl font-extrabold tracking-[5px] relative text-medium-green'>CHIN-WAG <span className='absolute -top-0.5 -right-3 text-xs'>®</span></p>
                 </Link>
                 <PrimaryButton
                     gsapClass='mx-auto'
