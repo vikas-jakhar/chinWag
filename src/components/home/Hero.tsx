@@ -4,14 +4,13 @@ import Icon from "../common/Icons";
 import Header from "../common/Header";
 import Link from "next/link";
 import PrimaryButton from "../custom-ui/PrimaryButton";
-
 const Hero: React.FC = () => {
   const triangles = Array(5).fill(null);
   return (
     <div className="relative">
       <Header />
       <div className="container relative">
-        <div className="flex justify-between items-center flex-wrap max-xl:justify-center max-sm:items-center max-xl:text-center pt-[213px] max-sm:pt-[119px] pb-[141px] max-md:pb-[50px] max-sm:pb-[0px] max-lg:pb-[40px] max-xl:pb-[60px]">
+        <div className=" xl:flex justify-between items-center flex-wrap max-xl:justify-center max-sm:items-center max-xl:text-center pt-[213px] max-sm:pt-[119px] pb-[141px] max-md:pb-[50px] max-sm:pb-[0px] max-lg:pb-[40px] max-xl:pb-[60px]">
           <div className="relative w-full sm:w-auto z-30 sm:mx-10 translate_x lg:mx-0 transform xl:-translate-x-[16%] translate-x-0">
             <Image
               src="/assets/images/webp/header-image.webp"
@@ -24,7 +23,7 @@ const Hero: React.FC = () => {
             <Image
               src="/assets/images/webp/dot-img.webp"
               alt="Dot Decoration"
-              className="absolute z-0 top-[-49px] right-[-20px] max-sm:top-[-20px] max-sm:right-[-4px] max-sm:w-[52px] max-sm:h-auto"
+              className="absolute z-0 top-[-49px] max-xl:right-[102px] max-lg:right-[-20px] right-[-20px] max-sm:top-[-20px] max-sm:right-[-4px] max-sm:w-[52px] max-sm:h-auto"
               width={146}
               height={118}
               sizes="(max-width: 640px) 52px, 146px"
@@ -74,5 +73,4 @@ const Hero: React.FC = () => {
     </div>
   );
 };
-
 export default Hero;
