@@ -10,7 +10,7 @@ const Commitment: React.FC = () => {
           <Image
             src="/assets/images/webp/commitment-image.webp"
             alt="Commitment Image"
-            className="z-30 relative pt-9 lg:h-[527px] pointer-events-none max-sm:w-full max-sm:max-w-[319px] max-md:max-w-[400px]"
+            className="z-30 relative lg:h-[527px] pointer-events-none max-sm:w-full max-sm:max-w-[319px] max-md:max-w-[400px]"
             width={489}
             height={527}
             priority
@@ -36,7 +36,7 @@ const Commitment: React.FC = () => {
         </div>
       </div>
       <Image
-        src="/assets/images/webp/plus-ellips.webp"
+        src="/assets/images/svg/plus-icon.svg"
         alt="Plus Ellipse"
         className="absolute max-sm:hidden rotate-[-152.7deg] top-[380px] right-[30px] max-w-[66px] max-h-[78px] h-full"
         width={66}
@@ -46,7 +46,7 @@ const Commitment: React.FC = () => {
       <Image
         src="/assets/images/webp/commitment-ellips.webp"
         alt="Commitment Ellipse"
-        className="absolute top-[50px] left-0 lg:left-10 max-lg:left-0 max-lg:top-[390px] max-md:top-[219px] max-sm:top-[275px] z-0 pointer-events-none"
+        className="absolute top-0 left-0 lg:left-10 max-lg:left-0 max-lg:top-[390px] max-md:top-[219px] max-sm:top-[275px] z-0 pointer-events-none"
         width={700}
         height={527}
         priority
