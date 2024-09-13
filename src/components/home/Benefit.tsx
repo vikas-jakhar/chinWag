@@ -1,7 +1,9 @@
+"use client"
 import PrimaryHeading from "../custom-ui/PrimaryHeading";
 import Image from "next/image";
 import PrimaryParagraph from "../custom-ui/PrimaryParagraph";
 import { BENEFIT_DATA } from "@/utils/Helper";
+import { Tilt } from 'react-next-tilt';
 interface BenefitItem {
   imageSrc: string;
   imageAlt: string;
@@ -25,30 +27,30 @@ const Benefit: React.FC = () => {
         <div className="flex gap-6 max-sm:gap-[27px] max-xl:flex-wrap justify-center max-sm:pt-[41px] pt-[60px]">
           <div className="flex gap-6 max-sm:gap-6 max-xl:gap-4 w-full flex-wrap flex-row lg:flex-nowrap justify-center">
             {BENEFIT_DATA.map((item: BenefitItem, idx) => (
-              <div
-                key={idx}
-                className="min-h-[429px] max-md:min-h-[400px] max-sm:min-h-[379px] max-sm:max-w-[286px] px-5 hover:bg-light-green hover:border-light-green duration-500 group w-full sm:w-[48%] sm:px-3 lg:max-w-[364px] border-[1px] border-medium-gray rounded-lg text-center flex justify-center"
-              >
-                <div className="flex flex-col items-center">
-                  <div className="pt-2 w-full max-sm:pt-5 max-w-[310px]">
-                    <Image
-                      src={item.imageSrc}
-                      alt={item.imageAlt}
-                      className="w-full pointer-events-none"
-                      width={178}
-                      height={193}
-                      priority
+              <Tilt key={idx}>
+                <div className="min-h-[429px] sm:w-full max-md:min-h-[400px] max-sm:min-h-[379px] max-sm:max-w-[286px] px-5 hover:bg-light-green hover:border-light-green duration-500 group w-full sm:px-3 lg:max-w-[364px] border-[1px] border-medium-gray rounded-lg text-center flex justify-center"
+                >
+                  <div className="flex flex-col items-center">
+                    <div className="pt-2 w-full max-sm:pt-5 max-w-[310px]">
+                      <Image
+                        src={item.imageSrc}
+                        alt={item.imageAlt}
+                        className="w-full pointer-events-none"
+                        width={178}
+                        height={193}
+                        priority
+                      />
+                    </div>
+                    <h3 className="-mt-[70px] max-sm:-mt-[50px] font-semibold group-hover:text-white text-black leading-[34px] max-sm:text-lg max-sm:leading-6 text-[25px]">
+                      {item.title}
+                    </h3>
+                    <PrimaryParagraph
+                      data={item.description}
+                      className="max-w-[310px] group-hover:text-white pt-[10px]"
                     />
                   </div>
-                  <h3 className="-mt-[70px] max-sm:-mt-[50px] font-semibold group-hover:text-white text-black leading-[34px] max-sm:text-lg max-sm:leading-6 text-[25px]">
-                    {item.title}
-                  </h3>
-                  <PrimaryParagraph
-                    data={item.description}
-                    className="max-w-[310px] group-hover:text-white pt-[10px]"
-                  />
                 </div>
-              </div>
+              </Tilt>
             ))}
           </div>
         </div>
