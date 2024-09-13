@@ -1,9 +1,9 @@
-"use client"
+"use client";
 import PrimaryHeading from "../custom-ui/PrimaryHeading";
 import Image from "next/image";
 import PrimaryParagraph from "../custom-ui/PrimaryParagraph";
 import { BENEFIT_DATA } from "@/utils/Helper";
-import { Tilt } from 'react-next-tilt';
+import { Tilt } from "react-next-tilt";
 interface BenefitItem {
   imageSrc: string;
   imageAlt: string;
@@ -28,8 +28,7 @@ const Benefit: React.FC = () => {
           <div className="flex gap-6 max-sm:gap-6 max-xl:gap-4 w-full flex-wrap flex-row lg:flex-nowrap justify-center">
             {BENEFIT_DATA.map((item: BenefitItem, idx) => (
               <Tilt key={idx}>
-                <div className="min-h-[429px] sm:w-full max-md:min-h-[400px] max-sm:min-h-[379px] max-sm:max-w-[286px] px-5 hover:bg-light-green hover:border-light-green duration-500 group w-full sm:px-3 lg:max-w-[364px] border-[1px] border-medium-gray rounded-lg text-center flex justify-center"
-                >
+                <div className="min-h-[429px] sm:w-full max-md:min-h-[400px] max-sm:min-h-[379px] max-sm:max-w-[286px] px-5 hover:bg-light-green hover:border-light-green duration-500 group w-full sm:px-3 lg:max-w-[364px] border-[1px] border-medium-gray rounded-lg text-center flex justify-center">
                   <div className="flex flex-col items-center">
                     <div className="pt-2 w-full max-sm:pt-5 max-w-[310px]">
                       <Image
@@ -74,5 +73,4 @@ const Benefit: React.FC = () => {
     </div>
   );
 };
-
 export default Benefit;
