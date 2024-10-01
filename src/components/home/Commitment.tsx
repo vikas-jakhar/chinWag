@@ -15,7 +15,7 @@ const Commitment: React.FC = () => {
             height={527}
             priority
           />
-          <div className="flex flex-col max-lg:text-center max-lg:items-center">
+          <div className="flex flex-col max-lg:pb-12 max-lg:text-center max-lg:items-center">
             <PrimaryHeading
               text="Commitment to Transparency"
               className="text-off-green max-w-[448px]"
